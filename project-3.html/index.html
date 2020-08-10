@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="welcom to html">
+        <title>booking in our hotel</title><!-- title of website -->
+        <style>
+            body{padding:0;margin:0;}
+            .header{
+                 width:100%;padding:5px 0;
+                 color:white;text-align: center;background: coral;
+            }
+            .navigation{
+                text-align: center; background: floralwhite;padding:10px 0;
+            }
+            ul li{list-style: none;display:inline-block;margin-left: 110px;color: cornflowerblue}
+            .a1{color: dodgerblue}
+            .content{
+                text-align: center;
+            }
+            img{width: 90%;height: 700px;}
+            blockquote{text-align: start;}
+            table{width:1000px;background:pink;padding:5px;margin-left: 200px;margin-top:20px;}
+            caption{color: blueviolet;}
+            table td{text-align: center;}
+            thead td{background:gray;color: aliceblue;border:5px solid red;}
+            tbody td{border: 5px solid red;}
+            tfoot td{background:black;color: aliceblue;border:5px solid red;}
+            iframe{width:90%;height: 700px;margin: 20px;border: 5px solid red;}
+            form{background:  azure;width: 900px;text-align: start;margin-left: 290px;margin-bottom: 20px;margin-top: 20px;padding: 20px;border:1px solid pink;}
+            fieldset{background: cornsilk}
+            legend{background:aliceblue; padding: 10px;border: 1px solid pink;color: blue;}
+            input,select{margin: 10px;}
+            .footer{
+                width:100%;padding:5px 0;
+                color:white;text-align: center;background: coral;
+            }
+            h2{display: inline-block;}
+            .img2{ width:30px;height:30px;margin-top: 30px;}
+        </style>
+    </head>
+    <body>
+        <!-- start first div in which header of layout of page -->
+        <div class="header" id="home">
+            <h1>welcom to our guset</h1> <!-- heading -->
+        </div>
+        <!-- end header -->
+        <!-- start second div in which navigation of layout of page --> 
+        <div class="navigation">
+            <ul>
+                <li><a class="a1" href="#home">HOME</a></li>
+                <li><a class="a1" href="#about us">ABOUT US</a></li>
+                <li><a class="a1" href="#services" >SERVICES</a></li>
+                <Li><a class="a1" href="#form" >DOWNLOADS</a></Li>
+                <li><a class="a1" href="#contact" >CONTACT WITH US</a></li>
+            </ul>
+        </div>
+        <!-- end navigation -->
+        <!-- start third div in which content of layout of page -->
+        <div class="content">
+            <span style="font-size:60px;color: aquamarine" id="about us">R</span>
+            <span style="font-size: 30px;color: blueviolet">I</span>
+            <span style="font-size: 60px;color: coral">F &nbsp;</span>
+            <span style="font-size: 60px;color: cyan">H</span>
+            <span style="font-size: 40px;color: darkmagenta;">OTE</span>
+            <span style="font-size: 60px;color: cyan">L<sup>*****</sup></span><br>
+            <img style="padding: 10px;" src="images/Hotel-Preciados-39.jpg" alt="hotel"><br>
+                <blockquote>
+                    RIF Hotel has a very good loction,it has 12km away from Airport,it opened in 5<sup>th</sup>, 2012,it has 167 air-conditioned rooms,of these 158 are superior rooms,2 rooms for guests with special needs,4 junior suites and 3 Executive Suites,<mark>24 hour room service</mark> and prices <del>220$</del>&nbsp;<ins>200$</ins>.
+                </blockquote>
+                <p style="text-align: start">
+                    <q> RIF hotel</q>  
+                </p>
+            <!-- start table -->
+            <table>
+                <caption>Meals in our hotel</caption> <!-- title of table -->
+                <thead>
+                    <!-- start first row -->
+                    <tr>
+                        <td>Meals</td>
+                        <td>breakfast</td>
+                        <td>lunch</td>
+                        <td>dinner</td>
+                    </tr>
+                    <!-- end row -->
+                </thead>
+                <tbody>
+                    <!-- start second row -->
+                     <tr>
+                         <td>time</td>
+                         <td> from 6.30 AM to 10 AM</td>
+                         <td>from 1 PM to 3 PM</td>
+                         <td> from 6 PM to 9 PM</td>
+                     </tr>
+                     <!-- end row -->
+                     <!-- start third row -->
+                     <tr>
+                         <td>food</td>
+                         <td>pies,eggs,yogurt</td>
+                         <td>grilled chicken,grilled fish,rice</td>
+                         <td>pizza</td>
+                     </tr>
+                     <!-- end row -->
+                </tbody>
+                <tfoot>
+                    <!-- start forth row -->
+                    <tr>
+                        <td>drinks and fruits</td>
+                        <td>cofee,tea</td>
+                        <td>orange juice</td>
+                        <td>ice cream,apple</td> 
+                    </tr>
+                    <!-- end row -->
+                    <tr>
+                        <td>prices</td>
+                        <td colspan="3">300$</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <!-- end table -->
+            <iframe src="http://nhcbahrain.com/" id="services"></iframe><br>
+            <!-- start form -->
+            <form id="form">
+                <fieldset>
+                    <legend>form for booking room</legend>
+                    <input type="button"  value="please enter your information"><br>
+                    <label>your name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" placeholder="please type your name "><br>
+                    <label>your number phone</label>
+                    <input type="number" placeholder="please enter number" maxlength="11"><br>
+                    <label>your e-mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" placeholder=" please enter your e-mail"><br>
+                    <label>your password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="password" value="0000" maxlength="8"><br>
+                    <label> data of check in&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="date" ><br>
+                    <label>data of check out&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="date" ><br>
+                    <label> number of gusets&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <select>
+                        <option disabled>number</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select><br>
+                    <label>number of rooms&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <select>
+                        <option disabled>number</option>
+                        <option selected>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select><br>
+                    <hr>
+                    <label>Are you traveling to work?</label><br>
+                    <input type="radio" name="work" value="Yes">Yes<br>
+                    <input type="radio" name="work" value="No">No<br>
+                    <label>what is your opinion in our hotel?</label><br>
+                    <input type="radio" name="rooms" value="excellent">excellent<br>
+                    <input type="radio" name="services" value="very good">very good<br>
+                    <input type="radio" name="prices" value="good">good<br>
+                    <label>your comment</label><br>
+                    <textarea cols="15" rows="5"></textarea><br>
+                    <hr>
+                    <label>Remmber me</label>
+                    <input type="checkbox" name="remember">
+                    <input type="reset" name="delet information" value="delet information">
+                    <input type="submit" name="Log in" value="Log in"><br>
+                </fieldset>
+            </form>
+            <!-- end form -->
+        </div>
+        <!-- end content -->
+        <!-- start forth div in which footer of layout of page -->
+        <div class="footer" id="contact">
+            <h2>coyright &copy;Ragaa ismail fayez.<sub>&lt;RIF HOTEL&gt;</sub></h2>
+            <img style="margin-left: 315px;" class="img2" src="images/twitter-icon.png " alt="twitter">
+            <img style="margin-left:48px;" class="img2" src="images/Facebook-skins-post.png" alt="facebook">
+            <img style="margin-left: 40px;" class="img2" src="images/whatsapp-trouble.png" alt="whatsapp" ><br>
+            <a  style="margin-left: 789px;"href="http://twitter.com">twitter</a>
+            <a style="margin-left: 20px;" href="http://facebook.com">facebook</a>
+            <a style="margin-left: 20px" href="http://whatsapp.com">whatsapp</a>
+        </div>
+        <!-- end footer -->
+    </body>
+</html>
