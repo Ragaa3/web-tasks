@@ -61,9 +61,9 @@ p{
     
     margin:60px 0; /*margin to make external space in top and bottom */
     padding: 30px; /* padding to make internal space in all direction */
-    background-image:url(../images/Death\ Note\ Wallpaper\ \(8\).jpg);
+    background:url(../images/Death\ Note\ Wallpaper\ \(8\).jpg) fixed;
     background-repeat:no-repeat;  
-    background-size: 100% 360px; /* background-size to make extension to image */
+    background-size: 100% auto; /* background-size to make extension to image */
 }
 .small
 {
