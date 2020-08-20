@@ -1,0 +1,221 @@
+body
+{
+    margin: 0;
+}
+/* star used to make proparties of all pages */
+* 
+{
+    font-family:"comic sama ms";         /* type of font text */
+    transition: 2s ease-in-out all;     /* transition to make animation solwly */
+}
+/* fixed header */
+div.header
+{
+    background-color:black; 
+    width: 100%;
+    top:0;                /* top to make no space between header and body */
+    position: fixed;      /* postion to make header fixed in all pages */
+    padding: 10px;       /* padding to make internal spaces */
+    z-index: 2;
+}
+/* example to selector */
+div.header ul li 
+{
+    list-style: none;   /* list-style to delete dot */
+    display: inline;   /* display inline to make all element in the same line */
+}
+a
+{
+    color: aliceblue;      /* color of link */
+    text-decoration: none; /* text-decoration to delete underline from link */
+    padding:20px;          /* padding to make internal spaces */
+}
+/* example to attribute */
+a[ href="#HOME"]
+{
+    background: green;   /* fixed background */
+}
+/* example to attribute */
+a[ href="https://www.instagram.com/"]
+{
+    margin-left: 75%; /* margin to make external space in left */ 
+}
+/* example to attribute */
+a[ href="https://www.instagram.com/"]:hover,a[href="https://github.com"]:hover,a[href="https://twitter.com"]:hover,a[href="https://facebook.com"]:hover
+{
+    background:gray;  /*backround appear only when you touch icon by mouse */ 
+}
+
+div.content
+{
+    padding: 70px 0; /* padding to make internal spaces in top and bottom */
+}
+/* example to attribute */
+a[href="#about"]
+{ 
+    background: pink;
+    top:10.5%;       /* top to make spaces in top between link and start of page */
+}
+/* example to attribute */
+a[href="#blog"]
+{
+    background-color: dodgerblue;
+    top:18.75%;                    /* top to make spaces in top between link and start of page */
+}
+/* example to attribute */
+a[href="#project"]
+{
+    background:red;
+    top:27%;              /* top to make spaces in top between link and start of page */
+}
+/* example to attribute */
+a[href="#contact"]
+{
+    background:#ddd;
+    top:35.25%;             /* top to make spaces in top between link and start of page */
+   
+}
+/* example to parent and child */
+div.content div:first-child  a 
+{
+    border-radius:5px; 
+    width:100px;
+    color: brown;
+    position: fixed;         /* position to make link fixed */
+    left: -120px;           /* negative left to make link  in body */          
+    text-align: center;    /* text-align to make text in center */
+    z-index: 3;           /* z-index to make link above all element in page */
+}
+/* hover */
+div.content div:first-child  a:hover
+{
+    left:0;          /* left to make link appear in pages only when you touch link by mouse */  
+}
+/* example to parent and child */
+div.content div:first-child h4
+{
+    float:left;   /* float to make element left in the same line */   
+    margin-left:40px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+/* example to parent and child */
+div.content div:first-child p
+{
+    background: black;
+    width: 90%;
+    margin-left: 40px;
+    color: white;
+    padding: 10px;
+    display:inline-block;  /* dispaly to make element in the same line but deal like block element */
+    position:sticky;            /* position to make pragraph fixed until all pragraph in this div end */
+    top:73px;                   /* top to make space from start of page in which pragraph fixed */
+    text-transform: capitalize; /* text-transform to make first letter capital */
+}
+/* example to parent and child */
+div.content div:first-child ol li
+{
+    display:block;
+    clear: both;
+    list-style: none;
+    margin-left:60px;    /* margin to make external space in left */
+    text-transform: capitalize;  /* text-transform to make first letter capital */
+}
+/* example to selector */
+div.box1
+{
+    background:url(../images/th\ \(7\).jfif) fixed; /* background-image/background-attachment */
+    background-size:100% 500px;   /* background-size to make extension to image */
+    padding:100px;
+    margin:40px 0; 
+}
+div.content div.box1  p:first-child
+{
+    background-color:darkgray;
+    height:0; 
+    padding:25px;
+    width:95%;
+    word-spacing:5px;
+    line-height:22px;   /* height between lines */ 
+    margin-bottom: 100px;
+    overflow: hidden;    /* overflow to make pragraph that outside background hidden */
+    
+}
+div.content div.box1  p:first-child:hover
+{
+    height:40px;
+    overflow: visible; /* overflow to make all pragraph appear only when you touch by mouse */ 
+}
+/* after appear only when you touch by mouse */
+div.box1:hover:after
+{
+    content: "this div hovered";  
+    background-color:rgba(255,0,0,0.5);   /* transparent background */
+    padding:40px 88% 40px 40px;          /* padding to make external space top right bottom left */
+}
+div.box2
+{
+    background: url(../images/th\ \(5\).jfif) fixed;   /* background-image/background-attachment */
+    background-size: 100% auto;                       /* background-size to make extension to image */
+    padding: 30px;
+}
+div.parent
+{
+    background-color:rgba(255,0,0,0.4);  /* transparent background */
+    padding: 20px;
+}
+/* example to parent and child */
+div.parent div:first-child
+{
+    margin-bottom:40px;
+}
+/* example to selector */
+div.parent div div.grand 
+{
+    background-color: rgba(0,0,255,0.4);   /* transparent background */
+    padding: 10px;
+    margin:5px 0;
+}
+/* example to selector */
+div.parent div p.brother 
+{
+    background-color: rgba(0,255,0,0.4);    /* transparent background */
+    padding: 10px;
+    width:98.5%; 
+    margin:5px 0;
+    position: static;
+}
+/* example to selector */
+p.brother:hover~p.brother 
+{
+    background-color: rgba(0,200,255,0.4);    /* transparent background */
+}
+div.box3
+{
+    background: url(../images/Screenshot_%D9%A2%D9%A0%D9%A2%D9%A0-%D9%A0%D9%A7-%D9%A1%D9%A5-%D9%A2%D9%A0-%D9%A5%D9%A4-%D9%A1%D9%A6-1.png) fixed;  /* background-image/background-attachment */
+    background-size: 100% auto;      /* background-size to make extension to image */
+    margin-top:40px; /* margin to make external space in top */
+    padding: 20px;
+}
+/* example to selector */
+div.box3 p 
+{
+    background-color:rgba(0,0,255,0.7);   /* transparent background */
+    line-height:30px;      /* height between lines */
+    padding: 30px;
+}
+/* example to first-letter */
+div.box3 p:first-letter 
+{
+    border-radius: 50%; /* border-radius to make oval shape */
+    background-color: hotpink;
+    font-size: 40px;
+    padding:10px;
+}
+/*example to first-line */
+div.box3 p:first-line
+{
+    background-color:gray;
+    text-transform:capitalize;  /* text-transform to make first letter capital */
+}
+
