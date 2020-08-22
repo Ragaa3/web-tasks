@@ -1,0 +1,105 @@
+body
+{
+    margin:0;
+}
+.header
+{
+    width: 100%;        
+    background:gray;
+    Top:0;  /* top to make no space in top between header and body */
+    padding:10px ; /*padding to make internal spaces in background of header */
+    position: fixed;    /* position to make header fixed in all pages */
+}
+    
+ul li{
+    list-style: none; /* list-style to delete dot from list */
+    display:inline;  /* display inline to make all element in the same line */
+}
+a
+{
+    color: white;  /* color to make words white */
+    padding:20px; /* padding to make internal spaces in background of link */
+    text-decoration:none; /* text-decoration to delete under line form link */ 
+}
+.a1
+{
+    background: rgb(0,255,0) /* background fixed */
+}
+.a2:hover
+{
+    
+    background:black; /* background appeares only when you touch link by mouse */
+}
+.content
+{
+    padding:50px 0 60px;  /* padding to make internal spaces in top and bottom */
+}
+.box1{
+    width:29%;  
+    height:500px;  
+    padding:20px;  /* padding to make internal space between image and div */
+    margin:30px 0 0; /* margin to make external space in top between div and header */
+    border: 2px solid red;   /* border-width/border-style/border-color*/
+    display: inline-block;  /* display to make all div in the same line */
+    text-align: center;  /* text-align to make text in center */
+    text-transform: capitalize;  /* text-transform to make the first letter from all words capital */
+}
+img
+{
+    width:80%; 
+    height: 300px;
+}
+p{
+    display: none;  /* display to make pragraph doesn't appear */
+}
+.box1:hover > p
+{
+    display:inline; /* display inline to make pragraph appear only when you touch div by mouse */
+}
+.box2
+{
+    
+    margin:60px 0; /*margin to make external space in top and bottom */
+    padding: 30px; /* padding to make internal space in all direction */
+    background:url(../images/Death\ Note\ Wallpaper\ \(8\).jpg) fixed;
+    background-repeat:no-repeat;  
+    background-size: 100% auto; /* background-size to make extension to image */
+}
+.small
+{
+    background: gray;
+    margin: 100px;  /* margin to make external space in all direction */
+    padding: 20px;  /* padding to make internal space in all direction */
+    text-transform: uppercase;  /* text-transform to make all letter capital */
+    text-align: left;  /* text-algin to make text in left */
+}
+.box3
+{
+    margin:0 5%; /* margin to make external space in left and right */
+    padding:5%;   /* padding to make internal space in all direction */
+    background: url(../images/S0jJkUd.jpg) fixed;
+    background-repeat:no-repeat; 
+    background-size: 95% auto; /*background-size to make extension to image */
+}
+.arbic
+{
+    background-color: rgba(255,0,0,0.2);  /* background-color: rgba( , , , ) to make color transparent to appear the image below */
+    color: white;  /* color to make color of words white */ 
+    direction: rtl;  /* direction to make text begin from right to left in arbic */              
+    text-transform: capitalize;  /*text-transform to make first letter of english words capital */
+    padding: 35px 25px; /* padding to make internal space 30px from top and bottom and 20px from right and left */
+    margin:0 0 5px; /* margin to make external space from bottom */
+    word-spacing:5px;
+}
+.english
+{
+    background: rgba(0,255,0,0.2); /* background-color:rgba ( , , , ) to make color transparent  to appear the image below */
+    color: white; /* color to make color of words white */
+    direction: ltr; /* direction to make text begin from right to left in arbic */
+    padding: 35px 25px; /* padding to make internal space 30px from top and bottom and 20px from right and left */
+    word-spacing: 5px;
+}
+span 
+{
+    text-transform: capitalize; /* text-transform to make the first letter of some of words capital */
+}
