@@ -1,0 +1,126 @@
+/* 125 lines */
+body
+{
+    padding:0;
+    margin:0;
+}
+.header
+{
+    width:100%;
+    padding:5px 0;
+    color:white;
+    text-align: center;
+    background: coral;
+}
+.navigation
+{
+    text-align: center;
+    background: floralwhite;
+    padding:10px 0;
+}
+ul li
+{
+    list-style: none;
+    display:inline-block;
+    margin-left: 110px;
+    color: cornflowerblue
+}
+.a1{
+    color: dodgerblue
+}
+.content
+{
+    text-align: center;
+}
+img
+{
+    width: 90%;
+    height: 700px;
+}
+blockquote
+{
+    text-align: start;
+}
+table
+{
+    width:1000px;
+    background:pink;
+    padding:5px;
+    margin-left: 200px;
+    margin-top:20px;
+}
+caption
+{
+    color: blueviolet;
+}
+table td
+{
+    text-align: center;
+}
+thead td
+{
+    background:gray;
+    color: aliceblue;
+    border:5px solid red;
+}
+tbody td
+{
+    border: 5px solid red;
+}
+tfoot td
+{
+    background:black;
+    color: aliceblue;
+    border:5px solid red;
+}
+iframe
+{
+    width:90%;
+    height: 700px;
+    margin: 20px;
+    border: 5px solid red;
+}
+form
+{
+    background:  azure;
+    width: 900px;
+    text-align: start;
+    margin-left: 290px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    border:1px solid pink;
+}
+fieldset
+{
+    background: cornsilk
+}
+legend
+{
+    background:aliceblue;
+    padding: 10px;
+    border: 1px solid pink;
+    color: blue;
+}
+input,select
+{
+    margin: 10px;
+}
+.footer
+{
+    width:100%;
+    padding:5px 0;
+    color:white;
+    text-align: center;
+    background: coral;
+}
+h2
+{
+    display: inline-block;
+}
+.img2
+{ 
+    width:30px;
+    height:30px;
+    margin-top: 30px;
+}

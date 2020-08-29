@@ -1,0 +1,104 @@
+/* 104 lines */
+body
+{
+    margin:0;padding:0;
+}
+.div
+{
+    width:100%;
+    padding:30px;
+    border: 1px solid #CCC;
+    background: azure;
+    align-items: center;
+    margin: 20px;
+}
+h1
+{
+    text-align: center
+                
+}
+.div1
+{
+    width:93%;
+    padding: 10px;
+    background:#DDD;
+    border: 1px solid #CCC;
+    margin: 10px;margin-left: 27px;
+}
+table
+{
+    width:90%;height: 10px;
+    border:5px solid deeppink;background:yellow;
+    margin-left: 20px;margin-bottom: 20px;
+}
+table caption 
+{
+    color :blueviolet;margin-top: 30px;
+}
+                
+table td 
+{
+    text-align: center;
+}
+thead td
+{
+    color:aliceblue;
+    background: gray;
+    border:5px solid blue;
+}
+tbody td
+{
+    border:5px solid red;
+}
+tfoot td
+{
+    color:aliceblue;
+    background: black;
+    border:5px solid red;
+}
+.colspan2{background: gray;border: 5px solid red;}
+.colspan3{border: 5px solid red;}
+form
+{
+    width:95%;
+    height: 85%;
+    background:#DDD;
+    padding: 10px;
+}
+fieldset
+{
+    width: 90%;
+    background:white;
+    margin: 10px;
+    margin-left:55px;
+    padding:10px;
+    border: 1px solid black;
+}
+legend
+{
+    height:20px;
+    background: antiquewhite;
+    border:1px solid cyan;
+    padding: 10px;
+}
+label
+{
+    color:mediumvioletred;
+    display: block;
+    margin-top: 20px;
+}
+.input
+{
+    display: block;
+}
+iframe
+{
+    width: 70%;
+    height: 1000px;
+    border:5px solid red;
+    margin: 30px 0 30px 20px;
+}
+h2
+{
+     text-align: center;
+}
