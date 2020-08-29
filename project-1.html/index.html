@@ -1,80 +1,71 @@
 <!DOC?TYPE>
 <html>
       <head>
-            <meta charset="utf-8">
-            <meta name="description" content="welcome to website">
-            <style>
-                div{
-                    width:500px;height:500px;
-                    pandding:10px;
-                    border:40px solid #DDD;margin-top: 80px;
-                    margin:10px 0
-                }
-                
-            </style>
-            <title>this is the first program</title>
+          <meta charset="utf-8">
+          <meta name="description" content="welcome to website">
+          <link rel="stylesheet" href="css/style.css">
+          <title>Ragaa_first-project_html</title>                         <!-- titel of pages -->
       </head>
-      <body> 
-        <div style="background:#DDD">
-          <h1 id="first" >   first div</h1>
-          <h5>image without title and link without target</h5>
-          <p>your img & link</p>
-          <a href="http:www.google.com">simple link to google without outer target</a>
-          <br><br>
-          <img src="images/Screenshot_%D9%A2%D9%A0%D9%A2%D9%A0-%D9%A0%D9%A7-%D9%A1%D9%A5-%D9%A2%D9%A0-%D9%A5%D9%A4-%D9%A1%D9%A6-1.png" width="150" height="150">
+      <body>
+          <!-- start first box -->
+          <div class="box1">
+              <h1 id="first" > first div</h1>
+              <h4>image without title and link without target</h4>
+              <p>your img & link</p>
+              <a href="http:www.google.com">simple link to google without outer target</a>
+              <br><br>
+              <img src="images/Screenshot_%D9%A2%D9%A0%D9%A2%D9%A0-%D9%A0%D9%A7-%D9%A1%D9%A5-%D9%A2%D9%A0-%D9%A5%D9%A4-%D9%A1%D9%A6-1.png" width="150" height="150">
+              <br>
+              <p>username</p>
+              <input type="text" value="">
+              <p>password</p>
+              <input type="password" value="">
+              <br>
+              <a href="#second">link go to second div</a>
+          </div>
+          <!-- end first box -->
+          <!-- start second box -->
+          <div class="box1">
+              <h1 id="second">second div</h1>
+              <h4>image with title and link with target</h4>
+              <p>your img & link</p>
+              <a href="http:www.google.com" target="_blank">simple link to google with outer target</a>
+              <br><br>
+              <img src="images/Screenshot_%D9%A2%D9%A0%D9%A2%D9%A0-%D9%A0%D9%A7-%D9%A1%D9%A5-%D9%A2%D9%A0-%D9%A5%D9%A4-%D9%A1%D9%A6-1.png" alt="programming and computer" width="150" height="150">
+              <p >username</p>
+              <input type="text" value="username">
+              <p>password</p>
+              <input type="password" value="0000">
+              <br>
+              <a href="#first">link go to first div</a>
+          </div>
+          <!-- end second box -->
           <br>
-          <p>username</p>
-          <input type="text" value="username">
-          <p>password</p>
-          <input type="password" value="">
-          <br>
-          <a href="#second">link go to second div</a>
-        </div>
-        <div style="background:#DDD">
-          <h1 id="second">second div</h1>
-          <h5>image with title and link with target</h5>
-          <p>your img & link</p>
-          <a href="http:www.google.com" target="_blank">simple link to google with outer target</a>
-          <br><br>
-          <img src="images/Screenshot_%D9%A2%D9%A0%D9%A2%D9%A0-%D9%A0%D9%A7-%D9%A1%D9%A5-%D9%A2%D9%A0-%D9%A5%D9%A4-%D9%A1%D9%A6-1.png" alt="programming and computer" width="150" height="150">
-          <p >username</p>
-          <input type="text" value="username">
-          <p>password</p>
-          <input type="password" value="">
-          <br>
-          <a href="#first">link go to first div</a>
-        </div><br>
-          <span style="background:pink; margin-left: 10px; border:10px solid pink;">my name is Ragaa</span>
-          <span style="background:cyan;margin-left:5px; border:10px solid cyan;">I am a programmer</span>
-          <span style="background:pink; margin-left: 5px ; border:10px solid pink;"> I hope to be best programmer</span><br><br>
-        <div style="background:cyan;width:700px;height: 500px;border: 20px solid cyan; ">
-            <p>My skills are:</p> 
-            <ol>
-                <li style="background:pink;width:600px; pandding:10px;
-                    border:10px solid pink;
-                    margin:10px 0">html & html5</li>
-                <li style="background:pink;width:600px; pandding:10px;
-                    border:10px solid pink;
-                    margin:10px 0">css & css3</li>
-                 <li style="background:pink;width:600px; pandding:10px;
-                    border:10px solid pink;
-                    margin:10px 0">Javascript
-                     <ul>
-                         <li style="background:#DDD;width:500px; pandding:10px;
-                    border:10px solid #DDD;
-                    margin:10px 0">jquery</li>
-                         <li style="background:#DDD;width:500px; pandding:10px;
-                    border:10px solid #DDD;
-                    margin:10px 0">bom</li>
-                         <li style="background:#DDD;width:500px; pandding:10px;
-                    border:10px solid #DDD;
-                    margin:10px 0">dom</li>
-                     </ul>
-                 </li>
-                 <li style="background:pink;width:600px; pandding:10px;
-                    border:10px solid pink;
-                    margin:10px 0">Bootstarp</li>
-            </ol>
+          <span class="span1"style=" margin-left: 50px; ">my name is Ragaa</span>
+          <span class="span2">I am a programmer</span>
+          <span class="span1"style=" margin-left:10px;"> I hope to be best programmer</span><br><br>
+          <!-- start third box -->
+          <div class="box2" >
+              <p>My skills are:</p>
+              <!-- start oreder list -->
+              <ol>
+                  <li>html & html5</li>    <!-- first element -->
+                  <li>css & css3</li>      <!-- second element -->
+                  <!-- third element -->
+                  <li>
+                      Javascript
+                      <!-- start unorder list -->
+                      <ul>
+                          <li >jquery</li>  <!-- first element --> 
+                          <li >bom</li>     <!-- second element -->
+                          <li >dom</li>     <!-- third element -->
+                      </ul>
+                      <!-- end unorder list -->
+                  </li>
+                  <!-- third element -->
+                 <li>Bootstarp</li>          <!-- forth element -->
+              </ol>
+              <!-- end oreder list -->
           </div>       
       </body>
 </html>
