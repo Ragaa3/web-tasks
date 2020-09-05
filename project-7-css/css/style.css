@@ -1,6 +1,12 @@
+/* 87 lines */
 body{margin: 0;}
+
 *{font-family: tahoma;transition:4s ease-in-out all;}
+
+/* start style of container */
 .container{width: 80%;margin:auto;height:auto;}
+/* end style of container */
+
 /* start style of heaher */
 
 /* start style of slider */
