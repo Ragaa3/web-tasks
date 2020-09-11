@@ -34,8 +34,8 @@ header ul li:hover
 /* end style of header */
 
 /* start style of section of content */
-/* start style of section of links */
-.content .links a
+/* start style of section of nav */
+.content nav a
 {
     padding:20px;
     position: fixed;
@@ -44,31 +44,31 @@ header ul li:hover
     left:-6%;
     border-radius:5px;
 }
-.content .links a[href="#about"]
+.content nav a[href="#about"]
 {
     top:15%;
     background-color:green;
 }
-.content .links a[href="#blog"]
+.content nav a[href="#blog"]
 {
     top:23.1%;
     background-color: hotpink;
 }
-.content .links a[href="#project"]
+.content nav a[href="#project"]
 {
     top:31.2%;
     background-color: dodgerblue;
 }
-.content .links a[href="#contact"]
+.content nav a[href="#contact"]
 {
     top: 39.3%;
     background-color:gainsboro;
 }
-.content .links a:hover
+.content nav a:hover
 {
     left:0;
 }
-/* end style of section of links */
+/* end style of section of nav */
 
 /* start style of section of time */
 .content .time {
