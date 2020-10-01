@@ -40,7 +40,7 @@ body{margin: 0;}
 
 /* start style of food box */
 .food .container img {width:30%;height:300px;margin:10px;box-shadow: 2px 2px 2px;border-radius:4px;border: solid dodgerblue;background-color:black;}
-.food .container img:hover{transform: rotate(30deg)}
+.food .container img:hover{transform: rotate(30deg);opacity:0.6;}
 /* end style of food box */
 
 /* start style of prices */
