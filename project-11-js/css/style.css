@@ -1,0 +1,181 @@
+body
+{
+    margin: 0;background-color: black;
+}
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing:border-box;
+    font-family: arial;
+    -webkit-transition:3s ease-in-out;
+    transition:3s ease-in-out;
+}
+.container 
+{
+    width: 95%;
+}
+/* start style of header */
+header 
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: gainsboro;
+    -webkit-box-shadow: 3px 3px 5px dodgerblue inset,
+        -3px -3px 5px dodgerblue inset,
+        3px 6px 5px pink inset,
+        -3px -6px 5px pink inset;
+    box-shadow: 3px 3px 5px dodgerblue inset,
+        -3px -3px 5px dodgerblue inset,
+        3px 6px 5px pink inset,
+        -3px -6px 5px pink inset;
+    -webkit-border-radius: 0 0 200px  200px;font-size:20px;
+    border-radius: 0 0 200px  200px;font-size:20px;
+}
+header .container ul li a:hover 
+{
+ color: dodgerblue;
+}
+header .container ul li img 
+{
+    width:15px;
+    height: 15px;
+}
+/* end style of header */
+
+/* start style of content */
+
+.content
+{
+    padding: 70px 0;
+    background-color: black;
+}
+
+/* start style of shadow */
+.content .shadow
+{
+    background: url(../images/1828458.jpg) fixed;
+    background-size: 100% auto;
+    padding:10px;
+}
+.content .shadow ul li a
+{
+    font-size:20px;
+    position: fixed;
+    left: -6%;
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+.content .shadow ul li a[ href="https://twitter.com"]
+{
+    
+    top:10%;
+    background-color:hotpink;
+}
+.content .shadow ul li a[ href="https://facebook.com"]
+{
+    top:20%;
+    padding: 20px 54px;
+    background-color:dodgerblue;
+}
+.content .shadow ul li a[  href="https://whatsapp.com"]
+{
+    top:30%;
+    background-color:gainsboro;
+}
+.content .shadow ul li a:hover
+{
+    left: 0;
+}
+.content .shadow section 
+{
+    background-color:gainsboro;
+    margin:10%;
+    padding: 20px;
+    text-align: center;
+    -webkit-box-shadow: 8px 8px 10px rgba(0,0,255,0.5),
+        -8px -8px 10px rgba(255,0,0,0.5);
+    box-shadow: 8px 8px 10px rgba(0,0,255,0.5),
+        -8px -8px 10px rgba(255,0,0,0.5);
+}
+.content .shadow section div ,.content .shadow section input
+{
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 8px 8px 10px rgba(0,0,255,0.5),
+        -8px -8px 10px rgba(255,0,0,0.5);
+    -webkit-text-shadow: 5px 5px 5px rgba(0,0,255,0.5), -5px -5px 5px rgba(255,0,255,0.5);
+    text-shadow: 5px 5px 5px rgba(0,0,255,0.5), -5px -5px 5px rgba(255,0,255,0.5);
+    background: linear-gradient( to right,#68c8d8,#bf73cd,azure,white,#94b394,#8497f3);
+    
+}
+.content .shadow section input
+{width: 100%;display: block;}
+.content .shadow section button
+{
+    -webkit-border-radius:150px 0 150px 0;
+    border-radius:150px 0 150px 0;
+    -webkit-box-shadow: 45px 0 rgb(241 0 255 / 50%) inset, -45px 0 rgb(22 97 205 / 50%) inset;
+    box-shadow: 45px 0 rgb(241 0 255 / 50%) inset, -45px 0 rgb(22 97 205 / 50%) inset;
+    padding: 20px;
+    margin-top: 2%;
+}
+.content .shadow section button:hover
+{
+    -webkit-border-radius:150px 0 150px 0;
+    border-radius:150px 0 150px 0;
+    -webkit-box-shadow: 0 35px 0 rgb(82 186 186 / 50%) inset, 0 -35px 0 rgb(146 129 218 / 50%) inset;
+    box-shadow: 0 35px 0 rgb(82 186 186 / 50%) inset, 0 -35px 0 rgb(146 129 218 / 50%) inset;
+    background: linear-gradient(to bottom, #ff0039 ,#5c22ce);
+    padding: 20px;
+    margin-top: 2%;
+}
+/* end style of shadow */
+
+/* end style of content */
+
+/* start style of footer */
+footer 
+{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* end style of footer */
+
+/* start framework */
+.ov-hidden
+{
+    overflow: hidden;
+}
+.fl-left
+{
+    float: left;
+}
+.fl-right
+{
+    float: right;
+}
+.ul-style
+{
+    list-style: none;
+    margin-left:2%;
+}
+.a-style
+{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+.li
+{
+    display: inline-block;
+    padding: 20px;
+    text-shadow:1px 2px 2px #ba5918,
+        -1px -2px 2px #3212b2;
+}
+/* end framework */
