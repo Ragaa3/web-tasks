@@ -1,7 +1,7 @@
 body
 {
     margin: 0;
-    perspective: 600px;
+    background-color: black;
 }
 *
 {
@@ -74,18 +74,18 @@ header .container ul li img
 .content .shadow ul li a[ href="https://twitter.com"]
 {
     
-    top:10%;
+    top:15%;
     background-color:hotpink;
 }
 .content .shadow ul li a[ href="https://facebook.com"]
 {
-    top:14%;
+    top:25%;
     padding: 20px 54px;
     background-color:dodgerblue;
 }
 .content .shadow ul li a[  href="https://whatsapp.com"]
 {
-    top:18%;
+    top:35%;
     background-color:gainsboro;
 }
 .content .shadow ul li a:hover

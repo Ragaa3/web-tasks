@@ -15,8 +15,8 @@ function add()
     }
     // end first condition
     
-    // start second condition if x is number and y is number test nested if
-    else if ( typeof x == "number" && typeof y == "number")
+    // if isNaN(a) == false or isNaN(b) check nested if 
+    else 
     {
         // start nested condition if a is Null or b is Null display "the plus of them : please type the two number" 
         if ( a == "" || b =="")
