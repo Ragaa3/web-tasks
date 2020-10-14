@@ -1,0 +1,508 @@
+/* 329 lines */
+body
+{
+    margin: 0;
+    background-color: black;
+}
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing:border-box;
+    font-family: arial;
+    -webkit-transition:all 6s ease-in-out 4s;
+    transition:all 6s ease-in-out 1s;
+}
+.container 
+{
+    width: 95%;
+}
+/* start style of header */
+header 
+{
+    z-index: 2;
+    position:fixed;
+    top:0;
+    margin: 0;
+    width: 100%;
+    background-color:ghostwhite;
+    -webkit-box-shadow: 3px 3px 5px dodgerblue inset,
+        -3px -3px 5px dodgerblue inset,
+        3px 6px 5px pink inset,
+        -3px -6px 5px pink inset;
+    box-shadow: 3px 3px 5px dodgerblue inset,
+        -3px -3px 5px dodgerblue inset,
+        3px 6px 5px pink inset,
+        -3px -6px 5px pink inset;
+    
+    
+    
+}
+header .container h1
+{
+    background-color: dodgerblue;
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    margin: 0;
+}
+header .container .switch {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  width: 60px;
+  height: 34px;
+}
+header .container .switch input { 
+  opacity:0;
+  width: 0;
+  height: 0;
+}
+header .container .switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+header .container .switch .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+header .container .switch input:checked + .slider {
+  background-color: #2196F3;
+}
+header .container .switch input:checked ~ ul {
+    display: block;
+    background-color: skyblue;
+    position: fixed;
+    top:58.5px;
+    right: 0;
+}
+header .container .switch input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+header .container .switch ul li
+{
+    position: absolute;
+}
+header .container .switch ul li:first-of-type
+{
+    top:-10px;
+    left:500px;
+    word-break: keep-all;
+}
+header .container .switch ul li:nth-of-type(2)
+{
+    top:-20px;
+    left: 600px;
+}
+header .container .switch ul li:nth-of-type(3)
+{
+    top:-20px;
+    left:700px;
+}
+@media  (min-width:1000px)
+    {
+         .switch .slider,.switch input
+        {
+            display:none;
+        }
+        .switch ul
+        {
+            display: inline;
+        }
+        .switch ul li
+        {
+            display: inline;
+        }
+        
+        
+}
+@media (max-width:999px)
+    {
+        .switch .slider
+        {
+            display:inline-block;
+        }
+        ul
+        {
+            display: none;
+        }
+}
+        
+header .container .switch ul li:hover 
+{
+    
+    background-color:gainsboro;
+    transition: all 0.3s ease-in-out;
+}
+header .container .switch ul li img 
+{
+    width:15px;
+    height: 15px;
+}
+/* end style of header */
+
+/* start style of content */
+
+.content
+{
+    z-index: 2;
+    padding: 70px 0;
+}
+
+/* start style of shadow */
+.content .shadow
+{
+    background-color: rgb(176 186 175 / 50%);
+    background: url(../images/bg.jpg) fixed;
+    background-size:cover;
+    padding:70px;
+    margin-bottom:60px;
+}
+.content .shadow ul li a
+{
+    font-size:20px;
+    position: fixed;
+    overflow: auto;
+    left: -6%;
+    padding: 20px 50px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+.content .shadow ul li a[ href="https://twitter.com"]
+{
+    
+    top:120px;
+    background-color:hotpink;
+}
+.content .shadow ul li a[ href="https://facebook.com"]
+{
+    top:200px;
+    padding: 20px 54px;
+    background-color:dodgerblue;
+}
+.content .shadow ul li a[  href="https://whatsapp.com"]
+{
+    top:280px;
+    background-color:gainsboro;
+}
+.content .shadow ul li a:hover
+{
+    left: 0;
+}
+.content .shadow section 
+{
+    position: relative;
+    height: 800px;
+    margin: 20px 10%;
+    padding:40px 0;
+}
+@media (max-width:1800px)
+{
+    .two
+    {
+        display: none;
+    }
+    .three
+    {
+        display: none;
+    }
+    .four
+    {
+        display: none;
+    }
+}
+@media (max-width:1200px)
+{
+    .one
+    {
+        display: none;
+    }
+    .two
+    {
+        display: inline-block;
+    }
+    .three
+    {
+        display: none;
+    }
+    .four
+    {
+        display: none;
+    }
+}
+@media (max-width:900px)
+{
+    .one
+    {
+        display: none;
+    }
+    .two
+    {
+        display:none;
+    }
+    .three
+    {
+        display:inline-block;
+    }
+    .four
+    {
+        display: none;
+    }
+}
+@media (max-width:700px)
+{
+    .one
+    {
+        display: none;
+    }
+    .two
+    {
+        display:none;
+    }
+    .three
+    {
+        display:none;
+    }
+    .four
+    {
+        display:inline-block;
+    }
+}
+.content .shadow section img
+{
+    position: absolute;
+    padding: 20px;
+    top: 5px;
+    left: 30%;
+    width: 55%;
+    z-index: 1;
+}
+
+
+/* end style of shadow */
+
+
+
+/* start style of opactiy */
+.content .opactiy
+{
+    background: url(../images/liberty.jpg) fixed;
+    background-size:cover;
+}
+.content .opactiy div 
+{
+    background-color: rgb(90 58 160 / 50%);
+    width: 100%;
+    height: 600px;
+    padding: 70px;
+    position: relative
+}
+.content .opactiy div img 
+{
+    position: absolute;
+    top:10%;
+    left:40%;
+    z-index: 1;
+    padding: 20px;
+    width:30%;
+}
+@media (overflow:hidden)
+    {
+        .content .opactiy div img:hover
+        {
+            overflow: hidden;
+        }
+}
+        
+.content .opactiy div img:hover
+{
+    animation: fan 0.2s infinite;
+    overflow: hidden;
+}
+@keyframes fan
+{
+    0%
+    {
+        transform: rotate(0deg);
+        content: url(../images/fanc.png);
+        overflow: hidden;
+    }
+    10%
+    {
+        transform: rotate(36deg);
+        content: url(../images/fanc2.png);
+    }
+    20%
+    {
+        transform: rotate(72deg);
+        content: url(../images/fanc3.png);
+    }
+    30%
+    {
+        transform: rotate(108deg);
+        content: url(../images/fanc4.png);
+    }
+    40%
+    {
+        transform: rotate(144deg);
+        content: url(../images/fanc5.png);
+    }
+    50%
+    {
+        transform: rotate(180deg);
+        content: url(../images/fanc.png);
+    }
+    60%
+    {
+        transform: rotate(216deg);
+        content: url(../images/fanc2.png);
+    }
+    70%
+    {
+        transform: rotate(252deg);
+        content: url(../images/fanc3.png);
+    }
+    80%
+    {
+        transform: rotate(288deg);
+        content: url(../images/fanc4.png);
+    }
+    90%
+    {
+        transform: rotate(324deg);
+        content: url(../images/fanc5.png);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+        content: url(../images/fanc.png);
+    }
+}
+        
+.content .opactiy div .arrow
+{
+    -webkit-opacity: 0;
+    opacity: 0;
+    width: 15%;
+    margin-top: 20%;
+    
+    
+}
+.content .opactiy div .rasengan
+{
+    -webkit-opacity: 0;
+    opacity: 0;
+    width: 10%;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+.content .opactiy div:hover>.arrow
+{
+    -webkit-transform: skewx(30deg) translateX(650px) scale(1.5);
+    transform: skewx(30deg) translateX(650px) scale(1.5);
+    -webkit-opacity:1;
+    opacity:1;
+}
+.content .opactiy div:hover>.rasengan
+{
+    -webkit-transform: skewx(10deg) translateX(-650px) scale(1.5);
+    transform: skewx(10deg) translateX(-650px) scale(1.5);
+    -webkit-opacity:1;
+    opacity:1;
+}
+/* end style of opactiy */
+
+/* start style of multi-columns */
+.multi-columns
+{
+    background: url(../images/1828458.jpg) fixed;
+    background-size: 100% 100%;
+    padding: 20px;
+    margin-top: 50px;
+}
+.multi-columns div
+{
+    font-family: 'indie flower';
+    width: 35%;
+    background-color:gainsboro;
+    margin:10%;
+    padding: 20px;
+    text-align: center;
+    -webkit-box-shadow: 8px 8px 10px rgba(0,0,255,0.5),
+        -8px -8px 10px rgba(255,0,0,0.5);
+    box-shadow: 8px 8px 10px rgba(0,0,255,0.5),
+        -8px -8px 10px rgba(255,0,0,0.5);
+    
+    
+}
+@font-face
+{
+    font-family: 'indie flower';
+    src: url(../fonts/IndieFlower-Regular.ttf);
+}
+    
+
+/* end style of content */
+
+/* start style of footer */
+footer 
+{
+    font-family: 'pacifico';
+    background: black;
+    color: white;
+    text-align: center;
+}
+@font-face
+{
+    font-family:'pacifico';
+    src:url(../fonts/Pacifico-Regular.ttf);
+}
+/* end style of footer */
+
+/* start framework */
+.ov-hidden
+{
+    overflow: hidden;
+}
+.fl-left
+{
+    float: left;
+}
+.fl-right
+{
+    float: right;
+}
+.ul-style
+{
+    list-style: none;
+}
+.a-style
+{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+.li
+{
+    padding: 5px;
+    margin: 0;
+    text-shadow:1px 2px 2px #ba5918,
+        -1px -2px 2px #3212b2;
+}
+/* end framework */
