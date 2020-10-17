@@ -53,56 +53,50 @@ header .container .switch {
     top:-10px;
 }
 header .container .switch input { 
-  opacity:0;
-  width:0;
-  height: 0;
+    opacity:0;
+    width:0;
+    height: 0;
 }
 header .container .switch .slider {
-  position: absolute;
-  cursor: pointer;
-  top:-42px;
+    position: absolute;
+    cursor: pointer;
+    top:-42px;
     left: 0;
     width:10%;
     padding: 20px;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 header .container .switch .slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 header .container .switch input:checked + .slider 
 {
-  background-color: #2196F3;
-}
-header .container .switch .slider:checked + ul
-{
-    display: block;
-    background-color: skyblue;
-    position:fixed;
-    top:60px;
-    right: 0;
+    background-color: #2196F3;
 }
 header .container .switch input:checked + .slider:before {
-  -webkit-transform: translateX(80%);
-  -ms-transform: translateX(80%);
-  transform: translateX(80%);
+    -webkit-transform: translateX(80%);
+    -ms-transform: translateX(80%);
+    transform: translateX(80%);
 }
 header .container .switch ul
 {
-    display: flex;}
+    display:inline-block;
+}
 header .container .switch ul li
 {
-    position: absolute;
     padding: 20px;
+    position: absolute;
+    display: none;
 }
 header .container  .switch ul li:first-of-type
 {
@@ -117,11 +111,23 @@ header .container  .switch ul li:nth-of-type(2)
 header .container  .switch ul li:nth-of-type(3)
 {
     top:-50px;
-    left:80%;
+    left:79%;
 }
- [class^="fas"]
-{
-    background-color: black;
+-webkit-@media  (min-width:1000px)
+    {
+         header .container .switch .slider,header .container .switch input
+        {
+            display:none;
+        }
+         header .container .switch ul
+        {
+            display: inline-block;
+        }
+        header .container .switch  ul li
+        {
+            display:inline-block;
+            position: absolute;
+        }
 }
 @media  (min-width:1000px)
     {
@@ -136,30 +142,79 @@ header .container  .switch ul li:nth-of-type(3)
         header .container .switch  ul li
         {
             display:inline-block;
+            position: absolute;
         }
 }
+-webkit-@media (max-width:999px)
+    {
+        .switch
+        {
+            display: block;
+            left: 80%;
+            position: relative;
+        }
+        header .container .switch ul li
+        {
+            display: block;
+        }
+        header .container .switch input:checked ~ ul
+        {
+            padding: 20px 50px 20px 20px;
+            background-color:blue;
+            display:block;
+            width: 28%;
+            position: static;
+            margin-left:-8%;
+            margin-top:-10px;
+            -webkit-text-shadow:1px 2px 2px #ba5918,
+            -1px -2px 2px #3212b2;
+            text-shadow:1px 2px 2px #ba5918,
+            -1px -2px 2px #3212b2;
+        }
+        header .container .switch input:checked ~ ul li
+        {
+            display: block;
+            position: static;
+        }
+}    
 @media (max-width:999px)
     {
         .switch
         {
-            display:block;
+            display: block;
             left: 80%;
-        }
-        header .container .switch ul
-        {
-            display:block;
+            position: relative;
         }
         header .container .switch ul li
         {
-            display:block;
+            display: block;
         }
-}
-        
+        header .container .switch input:checked ~ ul
+        {
+            padding: 20px 50px 20px 20px;
+            background-color:blue;
+            display:block;
+            width: 28%;
+            position: static;
+            margin-left:-8%;
+            margin-top:-10px;
+            -webkit-text-shadow:1px 2px 2px #ba5918,
+                -1px -2px 2px #3212b2;
+            text-shadow:1px 2px 2px #ba5918,
+                -1px -2px 2px #3212b2;
+        }
+        header .container .switch input:checked ~ ul li
+        {
+            display: block;
+            position: static;
+        }
+}    
 header .container  ul li:hover 
 {
-    
     background-color:black;
+    color: white;
     padding: 20px;
+    -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
@@ -221,11 +276,45 @@ header .container  ul li:hover
     position: relative;
     height: 600px;
 }
+-webkit-@media (max-width:1800px)
+{
+    .two
+    {
+        display: none;
+    }
+    .three
+    {
+        display: none;
+    }
+    .four
+    {
+        display: none;
+    }
+}
 @media (max-width:1800px)
 {
     .two
     {
         display: none;
+    }
+    .three
+    {
+        display: none;
+    }
+    .four
+    {
+        display: none;
+    }
+}
+-webkit-@media (max-width:1200px)
+{
+    .one
+    {
+        display: none;
+    }
+    .two
+    {
+        display: inline-block;
     }
     .three
     {
@@ -255,6 +344,25 @@ header .container  ul li:hover
         display: none;
     }
 }
+-webkit-@media (max-width:900px)
+{
+    .one
+    {
+        display: none;
+    }
+    .two
+    {
+        display:none;
+    }
+    .three
+    {
+        display:inline-block;
+    }
+    .four
+    {
+        display: none;
+    }
+}
 @media (max-width:900px)
 {
     .one
@@ -272,6 +380,25 @@ header .container  ul li:hover
     .four
     {
         display: none;
+    }
+}
+-webkit-@media (max-width:700px)
+{
+    .one
+    {
+        display: none;
+    }
+    .two
+    {
+        display:none;
+    }
+    .three
+    {
+        display:none;
+    }
+    .four
+    {
+        display:inline-block;
     }
 }
 @media (max-width:700px)
@@ -330,7 +457,66 @@ header .container  ul li:hover
 }       
 .content .fan div img:hover
 {
+    -webkit-animation: fan 6s infinite;
     animation: fan 6s infinite;
+}
+-webkit-@keyframes fan
+{
+    0%
+    {
+        transform: rotate(0deg);
+        content: url(../images/fanc.png);
+    }
+    10%
+    {
+        transform: rotate(36deg);
+        content: url(../images/fanc2.png);
+    }
+    20%
+    {
+        transform: rotate(72deg);
+        content: url(../images/fanc3.png);
+    }
+    30%
+    {
+        transform: rotate(108deg);
+        content: url(../images/fanc4.png);
+    }
+    40%
+    {
+        transform: rotate(144deg);
+        content: url(../images/fanc5.png);
+    }
+    50%
+    {
+        transform: rotate(180deg);
+        content: url(../images/fanc.png);
+    }
+    60%
+    {
+        transform: rotate(216deg);
+        content: url(../images/fanc2.png);
+    }
+    70%
+    {
+        transform: rotate(252deg);
+        content: url(../images/fanc3.png);
+    }
+    80%
+    {
+        transform: rotate(288deg);
+        content: url(../images/fanc4.png);
+    }
+    90%
+    {
+        transform: rotate(324deg);
+        content: url(../images/fanc5.png);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+        content: url(../images/fanc.png);
+    }
 }
 @keyframes fan
 {
@@ -396,6 +582,7 @@ header .container  ul li:hover
 .font
 {
     background: url(../images/1828458.jpg) fixed;
+    -webkit-background-size:cover;
     background-size:cover;
     padding: 20px;
     margin-top: 50px;
@@ -415,6 +602,11 @@ header .container  ul li:hover
     
     
 }
+-webkit-@font-face
+{
+    font-family: 'indie flower';
+    src: url(../fonts/IndieFlower-Regular.ttf);
+}
 @font-face
 {
     font-family: 'indie flower';
@@ -432,6 +624,11 @@ footer
     padding: 20px;
     color: white;
     text-align: center;
+}
+-webkit-@font-face
+{
+    font-family:'pacifico';
+    src:url(../fonts/Pacifico-Regular.ttf);
 }
 @font-face
 {
