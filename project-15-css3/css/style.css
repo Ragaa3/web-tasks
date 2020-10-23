@@ -218,7 +218,7 @@ header ul li:hover a
     {
         .about-us .image
         {
-              background-image:url(../images//images\ \(5\).jfif);
+            background-image:url(../images//images\ \(5\).jfif);
         }
         .about-us .text
         {
@@ -229,7 +229,7 @@ header ul li:hover a
     {
         .about-us .image
         {
-              background-image:url(../images//download\ \(3\).jfif);
+            background-image:url(../images//download\ \(3\).jfif);
         }
         .about-us .text
         {
@@ -241,7 +241,13 @@ header ul li:hover a
     {
         .about-us .image
         {
-              background-image:url(../images/1727-8.jpg);
+            width: 60%;
+            background-image:url(../images/1727-8.jpg);
+        }
+        .about-us .text
+        {
+            width: 40%;
+            background-color: gainsboro;
         }
 }
 /* ens style of section of about-us */
