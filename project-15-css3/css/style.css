@@ -3,6 +3,7 @@ body
 {
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 /* start style of section of header */
 header
@@ -242,11 +243,12 @@ header ul li:hover a
         .about-us .image
         {
             width: 60%;
+            margin-left:-5%;
             background-image:url(../images/1727-8.jpg);
         }
         .about-us .text
         {
-            width: 40%;
+            width: 45%;
             background-color: gainsboro;
         }
 }

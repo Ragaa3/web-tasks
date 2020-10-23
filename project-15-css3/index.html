@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="description" content="welcome">
-        <title>Ragaa_forth-project_css3</title>
+        <title>Ragaa_forth-project_css3</title>                              <!-- title -->
         <link rel="stylesheet" href="css/style.css">
         <!-- start fontawesome css -->
         <link rel="stylesheet" href="css/brands.min.css">
@@ -13,7 +13,7 @@
     </head>
     <body>
         <!-- start header -->
-        <header class="ov-hidden" onclick="welcome () ">
+        <header class="ov-hidden" onclick="welcome () " id="home">
             <h2 class="fl-left">
                 <span>R</span>
                 <span>a</span>
@@ -21,12 +21,14 @@
                 <span>e</span>
                 <span>n</span>
             </h2>
+            <!-- start unorder list -->
             <ul class="fl-right">
-                <li class="li fl-left"><a class="a-style">home</a></li>
-                <li class="li fl-left"><a class="a-style">about us</a></li>
-                <li class="li fl-left"><a class="a-style">offer</a></li>
-                <li class="li fl-left"><a class="a-style">contact</a></li>
+                <li class="li fl-left"><a class="a-style" href="#home">home</a></li>                         <!-- first element -->
+                <li class="li fl-left"><a class="a-style" href="#about">about us</a></li>                    <!-- second element -->
+                <li class="li fl-left"><a class="a-style" href="#offer">offer</a></li>                       <!-- third element -->
+                <li class="li fl-left"><a class="a-style" href="#contact">contact</a></li>                   <!-- forth element -->
             </ul>
+            <!-- end unorder list -->
         </header>
         <!-- end header -->
         <!-- start section of slider -->
@@ -47,7 +49,7 @@
         </section>
         <!-- end section of slider -->
         <!-- start section of about-us -->
-        <section class="about-us ov-hidden">
+        <section class="about-us ov-hidden" id="about">
             <aside class="image fl-left">
             </aside>
             <article class="text fl-left">
@@ -59,7 +61,7 @@
         </section>
         <!-- end section of about-us -->
         <!-- start section of offer -->
-        <section class="offer">
+        <section class="offer" id="offer">
             <h2 class="h2-style">offers</h2>
             <hr class="hr-style">
             <div class="image fl-left">
@@ -135,7 +137,7 @@
         </section>
         <!-- end section of video -->
         <!-- start section of contact -->
-        <section class="contact ov-hidden">
+        <section class="contact ov-hidden" id="contact">
             <section class="us fl-left">
                 <img src="images/download%20(3).jfif">
                 
