@@ -2,7 +2,6 @@
 body
 {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 /* start style of section of header */
@@ -10,6 +9,7 @@ header
 {
     position: fixed;
     width: 100%;
+    margin: 0;
     height: 90px;
     background-color:rgba(0,0,0,0.5);
     top:0;
@@ -81,6 +81,7 @@ header ul li:hover a
 {
     background-image: url(../images/istock_000040965646_large_-_copy_0.jpg);
     background-size: cover;
+    margin: 0;
     overflow: hidden;
     height: 700px;
 }
