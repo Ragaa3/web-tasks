@@ -1,0 +1,61 @@
+body
+{
+    margin:0;
+}
+.multiplcation-table,.repeat
+{
+    background-color: #990b0b;
+    width: 60%;
+    margin:5% 20%;
+    padding: 40px;
+    border-radius: 40px;
+}
+.multiplcation-table input
+{
+    margin-left: 40%;
+    height:60px;
+}
+.multiplcation-table button
+{
+    background-color: gainsboro;
+    display: block;
+    margin-left: 45%;
+    border-radius: 50%;
+    margin: 10px 45%;
+    padding: 20px;
+    box-shadow: 4px 4px 2px black;
+}
+.multiplcation-table .step
+{
+    background-color: lightseagreen;
+    padding: 20px;
+    text-align: center;
+    margin: 2%;
+    border-radius: 100px;
+    border: 3px solid black;
+}
+.repeat input
+{
+    margin-left: 40%;
+    height:60px;
+}
+.repeat button
+{
+    background-color: gainsboro;
+    display: block;
+    margin-left: 45%;
+    width: 15%;
+    border-radius:30px;
+    margin: 10px 42.5%;
+    padding: 20px;
+    box-shadow: 4px 4px 2px black;
+}
+.repeat .step
+{
+    background-color: lightseagreen;
+    padding: 20px;
+    text-align: center;
+    margin: 2%;
+    border-radius: 100px;
+    border: 3px solid black;
+}
