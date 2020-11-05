@@ -20,23 +20,23 @@ function search1 ()
         "hakage",
         "kira"
         ];
-    if (name.indexOf(anime1) == 0)
+    if (name.indexOf(anime1.tolowerCase()) == 0)
     {
         document.getElementById("anime").innerHTML = "<img src='images/naruto.png' width='300px' height='300px'>" + "<img src='images/naruto_2.png' width='300px' height='300px'>" ;
     }
-    else if (name.indexOf(anime1) == 1)
+    else if (name.indexOf(anime1.toLowerCase()) == 1)
     {
         document.getElementById("anime").innerHTML = "<img src='images/itachi.png' width='300px' height='300px'>";
     }
-    else if (name.indexOf(anime1) == 2)
+    else if (name.indexOf(anime1.toLowerCase()) == 2)
     {
         document.getElementById("anime").innerHTML = "<img src='images/obito.png' width='300px' height='300px'>";
     }
-    else if (name.indexOf(anime1) == 3)
+    else if (name.indexOf(anime1.toLowerCase()) == 3)
     {
         document.getElementById("anime").innerHTML = "<img src='images/hakage.png' width='300px' height='300px'>";
     }
-    else if (name.indexOf(anime1) == 4)
+    else if (name.indexOf(anime1.toLowerCase()) == 4)
     {
         document.getElementById("anime").innerHTML = "<img src='images/kira.jpg' width='300px' height='300px'>";
     }
@@ -59,23 +59,23 @@ function search2 ()
         "hakage",
         "kira"
         ];
-    if (name.indexOf(anime2) == 0)
+    if (name.indexOf(anime2.toLowerCase()) == 0)
     {
         document.getElementById("anime").innerHTML = "<img src='images/naruto.png' width='300px' height='300px'>" + "<img src='images/naruto_2.png' width='300px' height='300px'>";
     }
-    else if (name.indexOf(anime2) == 1)
+    else if (name.indexOf(anime2.toLowerCase()) == 1)
     {
         document.getElementById("anime").innerHTML = "<img src='images/itachi.png' width='300px' height='300px'>";
     }
-    else if (name.indexOf(anime2) == 2)
+    else if (name.indexOf(anime2.toLowerCase()) == 2)
     {
         document.getElementById("anime").innerHTML = "<img src='images/obito.png' width='300px' height='300px'>";
     }
-    else if (name.indexOf(anime2) == 3)
+    else if (name.indexOf(anime2.toLowerCase()) == 3)
     {
         document.getElementById("anime").innerHTML = "<img src='images/hakage.png' width='300px' height='300px'>";
     }
-     else if (name.indexOf(anime2) == 4)
+     else if (name.indexOf(anime2.toLowerCase()) == 4)
     {
         document.getElementById("anime").innerHTML = "<img src='images/kira.jpg' width='300px' height='300px'>";
     }
