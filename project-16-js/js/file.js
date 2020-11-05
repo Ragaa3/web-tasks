@@ -2,7 +2,7 @@ function malti()
 {
     var number = document.getElementById("n1").value;
     document.getElementById("text1").innerHTML="plz wait 3 second";
-    document.getElementById("result").innerHTML="";
+    document.getElementById("result1").innerHTML="";
     for(var i=0;i<=12;i=i+1)
     {
         var m = number*i;
