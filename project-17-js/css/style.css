@@ -1,0 +1,270 @@
+/* 269 lines */
+body
+{
+    margin: 0;
+    background-color: black;
+}
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing:border-box;
+    font-family: arial;
+    -webkit-transition:all 6s ease-in-out 4s;
+    transition:all 6s ease-in-out 1s;
+}
+.container 
+{
+    width: 100%;
+}
+/* start style of header */
+header 
+{
+    z-index: 2;
+    position:fixed;
+    top:0;
+    margin:0;
+    width: 100%;
+    background-color:gainsboro;
+    -webkit-box-shadow: 3px 3px 5px dodgerblue inset,
+        -3px -3px 5px dodgerblue inset,
+        3px 6px 5px pink inset,
+        -3px -6px 5px pink inset;
+    box-shadow: 3px 3px 5px dodgerblue inset,
+        -3px -3px 5px dodgerblue inset,
+        3px 6px 5px pink inset,
+        -3px -6px 5px pink inset;  
+}
+[href^="#home"]
+{
+    padding: 20px;
+    font-size: 20px;
+    margin: 0;
+    margin-left: -58px;
+    background-color:dodgerblue;
+    
+}
+header .container  ul li
+{
+    padding:20px;
+    margin: 0;
+}
+    
+header .container  ul li:hover 
+{
+    
+    background-color:gainsboro;
+}
+header .container  ul li img 
+{
+    width:15px;
+    height: 15px;
+}
+/* end style of header */
+
+/* start style of content */
+
+.content
+{
+    z-index: 2;
+    padding: 70px 0;
+}
+
+/* start style of shadow */
+.content .hi
+{
+    background-color: rgb(176 186 175 / 50%);
+    background: url(../images/bg.jpg) fixed;
+    -webkit-background-size:cover;
+    background-size:cover;
+    padding:70px;
+    margin-bottom:60px;
+}
+.content .hi ul li a
+{
+    font-size:20px;
+    position: fixed;
+    left: -6%;
+    padding: 20px 50px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+.content .hi ul li a[ href="https://twitter.com"]
+{
+    
+    top:120px;
+    background-color:hotpink;
+}
+.content .hi ul li a[ href="https://facebook.com"]
+{
+    top:200px;
+    padding: 20px 54px;
+    background-color:dodgerblue;
+}
+.content .hi ul li a[  href="https://whatsapp.com"]
+{
+    top:280px;
+    background-color:gainsboro;
+}
+.content .hi ul li a:hover
+{
+    left: 0;
+}
+.content .hi section 
+{
+    font-family: 'indie flower';
+    text-align: center;
+    width: 85%;
+    background-color:gainsboro;
+    padding: 20px;
+    margin: 10% 5%;
+    text-align: center;
+    -webkit-box-shadow: 8px 8px 10px rgba(0,0,255,0.5),
+        -8px -8px 10px rgba(255,0,0,0.5);
+    box-shadow: 8px 8px 10px rgba(0,0,255,0.5),
+        -8px -8px 10px rgba(255,0,0,0.5);
+}
+.content .hi section input,.content .hi section button
+{
+    display: block;
+    width: 100%;
+    background-color:gainsboro;
+    margin:5% 10%;
+    padding: 20px;
+    text-align: center;
+    -webkit-box-shadow: 8px 8px 10px rgba(0,0,255,0.5),
+        -8px -8px 10px rgba(255,0,0,0.5);
+    box-shadow: 8px 8px 10px rgba(0,0,255,0.5),
+        -8px -8px 10px rgba(255,0,0,0.5);
+}
+.content .hi section .result
+{
+    margin: 5% 0;
+    padding: 40px;
+    border-radius: 40px;
+    width: 50%;
+    background-color:dodgerblue;
+}
+
+/* end style of hi */
+
+/* start style of search */
+.search
+{
+    background: url(../images/1828458.jpg) fixed;
+    background-size: 100% 100%;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.search div
+{
+    width: 50%;
+}
+.search div input
+{
+    display: inline-block;
+    font-family: 'indie flower';
+    width: 40%;
+    background-color:gainsboro;
+    margin:5% 10%;
+    padding: 20px;
+    text-align: center;
+    -webkit-box-shadow: 8px 8px 10px rgba(0,0,255,0.5),
+        -8px -8px 10px rgba(255,0,0,0.5);
+    box-shadow: 8px 8px 10px rgba(0,0,255,0.5),
+        -8px -8px 10px rgba(255,0,0,0.5);
+}
+.search div span
+{
+    display: block;
+    font-family: 'indie flower';
+    width: 40%;
+    margin: 2% 10%;
+    -webkit-border-radius: 0 40px 40px 0;
+    border-radius: 0 40px 40px 0;
+    background-color:gainsboro;
+    padding: 20px;
+    text-align: center;
+    -webkit-box-shadow: 8px 8px 10px rgba(0,0,255,0.5),
+        -8px -8px 10px rgba(255,0,0,0.5);
+    box-shadow: 8px 8px 10px rgba(0,0,255,0.5),
+        -8px -8px 10px rgba(255,0,0,0.5);
+}
+
+.search .re
+{
+    width: 50%;
+    height: 300px;
+    display: inline-block;
+    font-family: 'indie flower';
+    background-color:rgba(255,0,0,0.5);
+    padding: 40px;
+    text-align: center;  
+}
+-webkit-@font-face
+{
+    font-family: 'indie flower';
+    src: url(../fonts/IndieFlower-Regular.ttf);
+}
+@font-face
+{
+    font-family: 'indie flower';
+    src: url(../fonts/IndieFlower-Regular.ttf);
+}
+/* end style of content */
+
+/* start style of footer */
+footer 
+{
+    font-family: 'pacifico';
+    background: black;
+    column-count: 3;
+    column-rule: 3px dotted pink;
+    color: white;
+    text-align: center;
+}
+-webkit-@font-face
+{
+    font-family:'pacifico';
+    src:url(../fonts/Pacifico-Regular.ttf);
+}
+@font-face
+{
+    font-family:'pacifico';
+    src:url(../fonts/Pacifico-Regular.ttf);
+}
+/* end style of footer */
+
+/* start framework */
+.ov-hidden
+{
+    overflow: hidden;
+}
+.fl-left
+{
+    float: left;
+}
+.fl-right
+{
+    float: right;
+}
+.ul-style
+{
+    list-style: none;
+    margin: 0;
+}
+.a-style
+{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+.li
+{
+    padding: 5px;
+    margin: 0;
+    text-shadow:1px 2px 2px #ba5918,
+        -1px -2px 2px #3212b2;
+}
+/* end framework */

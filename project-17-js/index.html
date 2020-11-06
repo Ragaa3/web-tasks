@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <meta name="description" content="welcome to you in our website">
+        <title>Ragaa_second-project_js</title>                                        <!-- title of pages -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- start fontawesome -->
+        <link rel="stylesheet" href="css/brands.min.css">
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+        <link rel="stylesheet" href="css/solid.css">
+        <!-- end fontawesome -->
+    </head>
+    <body>
+        <!-- start header -->
+        <header class ="ov-hidden" id="home">
+            <!-- start section of container -->
+            <section class="container">
+                <ul class=" ul-style">
+                    <li class="fl-left li"><a class="a-style" href="#home">home</a></li>
+                    <li class="fl-left li"><a class="a-style" href="#welcome">shargin<img src="images/black.png"></a></li>
+                    <li class="fl-left li"><a class="a-style" href="#anime9">itach<img src="images/black2.png"></a></li>
+                </ul>
+                <!-- start unorder list -->
+                <ul class="ul-style fl-right">                                                              
+                    <li class="fl-left li" ><input type="search" name="search" id="search"></li>                                                                                   <!-- first element -->
+                    <li class="fl-left li" ><a class="a-style" href="#search">search<i class="fas fa-search"></i></a></li>                              <!-- second element -->
+                </ul>
+                <!-- end unorder list -->
+                
+            </section>
+            <!-- end section of container -->
+        </header>
+        <!-- end header -->
+        <!-- start section of content -->
+        <section class="content">
+            <!-- start section of hi -->
+            <section class="hi" id="welcome">
+                <!-- start unorder list -->
+                <ul class="ul-style fl-left">
+                    <li class="fl-left"><a  class="a-style" href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>           <!-- first element -->
+                    <li class="fl-left"><a  class="a-style" href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>       <!-- second element -->
+                    <li class="fl-left"><a  class="a-style" href="https://whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a></li>         <!-- third element -->
+                </ul>
+                <!-- end unorder list -->
+                <!-- start section to welcome -->
+                <section onclick="welcome ()" class="ov-hidden">
+                    <div class="fl-left">
+                        <input type="text" id="number1">
+                        <input type="text" id="number2">
+                        <button onclick="add()">add</button>
+                    </div>
+                    <div id="result" class="result fl-right"></div>
+                </section>
+                <!-- end section -->
+            </section>
+            <!-- end section of hi -->
+            
+            <!-- start section of search -->
+            <section class="search ov-hidden" id="anime9">
+                <div class="fl-left">
+                    <input type="search" name="ani" list="want" value =""id="name">
+                    <datalist id="want">
+                        <option >itach</option>
+                        <option >kira</option>
+                        <option >naruto</option>
+                        <option >obito</option>
+                        <option >hakage</option>
+                    </datalist>
+                    <span onclick="search2 ()">search</span>
+                </div>
+                 <div id="anime" class="re fl-right">
+                    type first
+                </div>
+            </section>
+            <!-- end section of search -->
+        </section>
+        <!-- end section of content -->
+        <!-- start footer -->
+        <footer>
+            <h3>support</h3>
+            <p>web desiner</p>
+            <p>front end</p>
+            <p>back end</p>
+            <h3>heads</h3>
+            <p>Ragaa</p>
+            <p>ismail</p>
+            <p>fayez</p>
+            <h3>other pages</h3>
+            <p>whats app</p>
+            <p>facebook</p>
+            <p>tiwtter</p>
+        </footer>
+        <!-- end footer -->
+        
+        <!-- start javascript -->
+        <script src="js/brands.min.js"></script>
+        <script src="js/fontawesome.min.js"></script>
+        <script src="js/solid.min.js"></script>
+        <script src="js/file.js"></script>
+        <!-- end javascript -->
+    </body>
+</html>
