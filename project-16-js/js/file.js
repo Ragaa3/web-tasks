@@ -6,7 +6,7 @@ function malti()
     for(var i=0;i<=12;i=i+1)
     {
         var m = number*i;
-        document.getElementById("result1").innerHTML+=number+" * "+i+" = "+m+"<br>";
+        document.getElementById("result1").innerHTML+=number+"&times;"+i+" = "+m+"<br>";
     }
 }
 function clean()
