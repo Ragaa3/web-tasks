@@ -11,7 +11,7 @@ body
     box-sizing:border-box;
     font-family: arial;
     -webkit-transition:all 6s ease-in-out 4s;
-    transition:all 6s ease-in-out 1s;
+    transition:all 3s ease-in-out 1s;
 }
 .container 
 {

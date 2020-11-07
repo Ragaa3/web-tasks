@@ -30,7 +30,6 @@ function add()
         }
     } 
     // end second condition
-    
 }
 // end function 
 
