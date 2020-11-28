@@ -1,0 +1,74 @@
+body
+{
+    margin:0;
+}
+.change,.repeat
+{
+    background-color: dodgerblue;
+    width: 60%;
+    margin:5% 20%;
+    padding: 40px;
+    border-radius: 40px;
+}
+.change input
+{
+    margin-left: 40%;
+    height:60px;
+}
+.change button
+{
+    background-color: gainsboro;
+    display: inline-block;
+    margin-left:5%;
+    border-radius: 50%;
+    margin: 10px 8%;
+    padding: 20px;
+    box-shadow: 4px 4px 2px black;
+}
+.change .step
+{
+    background-color: lightseagreen;
+    padding: 20px;
+    text-align: center;
+    margin: 2%;
+    border-radius: 100px;
+    border: 3px solid black;
+}
+.repeat input
+{
+    margin-left: 40%;
+    height:60px;
+}
+.repeat button
+{
+    background-color: gainsboro;
+    display: block;
+    margin-left: 45%;
+    width: 15%;
+    border-radius:30px;
+    margin: 10px 42.5%;
+    padding: 20px;
+    box-shadow: 4px 4px 2px black;
+}
+.repeat .step
+{
+    background-color: lightseagreen;
+    padding: 20px;
+    text-align: center;
+    margin: 2%;
+    border-radius: 100px;
+    border: 3px solid black;
+}
+.kk
+{
+    background-color: antiquewhite;
+}
+.hh
+{
+    color: red;
+}
+.bb
+{
+    color: mediumpurple;
+    border: 3px dotted red;
+}
