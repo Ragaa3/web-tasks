@@ -112,8 +112,14 @@ function conctbtp()
     inpu +=bpri;
     document.getElementById("input").value=inpu
 }
-function clear ()
+function clear()
 {
     "use strict";
-    inpu = '';
+    document.getElementById("input").value=inpu.replace(inpu,'');
+    
+}
+function conctbtdel()
+{
+    "use strict";
+    inpu = document.getElementById("input").value=inpu.slice(0,(inpu.length)-1);
 }
