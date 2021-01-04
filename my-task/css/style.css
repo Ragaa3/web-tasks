@@ -5,6 +5,7 @@ body
 div 
 {
     background-color:#cc72cf;
+    border: 2px solid black;
     padding: 20px;
     width: 35%;
     margin-top: 5%;
@@ -17,13 +18,13 @@ div .input
 }
 div input[type="text"]
 {
-    width: 89%;
+    width: 96%;
     height: 10%;
 }
 div button
 {
-    width: 30%;
+    width: 32%;
     margin: 1% 0;
-    box-shadow: 1px 1px 1px blue;
+    box-shadow: 1px 3px 3px blue;
     background-color: #bb9ce0;
 }
