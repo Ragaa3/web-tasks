@@ -14,12 +14,13 @@ var inpu = document.getElementById("input").value,
     beq = document.getElementById("equal").value,
     bml = document.getElementById("mli").value,
     bdi= document.getElementById("divs").value,
-    bpri= document.getElementById("btpri").value;
+    bpri= document.getElementById("btpri").value,
+    bd= document.getElementById("btd").value;
 function conctbt1()
 {
     "use strict";
     inpu +=b1;
-    document.getElementById("input").value=inpu
+    document.getElementById("input").value=inpu;
 }
 function conctbt2()
 {
@@ -84,8 +85,22 @@ function conctbtpl()
 function conctbteq()
 {
     "use strict";
-    var a=eval(inpu);
-    document.getElementById("input").value=a;
+    if(eval(inpu) == undefined)
+    {
+        document.getElementById("input").value=" please enter number";
+    }
+    else
+    {
+        if(isFinite(eval(inpu)) == false)
+        {
+            document.getElementById("input").value=" Error is not a number ";  
+        }
+        else
+        {
+            var a=eval(inpu);
+            document.getElementById("input").value=a;
+        } 
+    }
     inpu='';
 }
 function conctbtmi()
@@ -98,7 +113,7 @@ function conctbtml()
 {
     "use strict";
     inpu +=bml;
-    document.getElementById("input").value=inpu
+    document.getElementById("input").value=inpu;
 }
 function conctbtdiv()
 {
@@ -110,6 +125,12 @@ function conctbtp()
 {
     "use strict";
     inpu +=bpri;
+    document.getElementById("input").value=inpu
+}
+function conctbtd()
+{
+    "use strict";
+    inpu +=bd;
     document.getElementById("input").value=inpu
 }
 function clear()
