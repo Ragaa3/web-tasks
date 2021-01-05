@@ -220,6 +220,7 @@ function on()
     document.getElementById("input").value='';
     document.getElementById("input").placeholder='';
     document.getElementById("input").readOnly = false;
+    document.getElementById("input").focus();
     inpu=''
 }
 // button off
