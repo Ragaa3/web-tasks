@@ -151,11 +151,25 @@ function conctbtd()
     document.getElementById("input").value=inpu
 }
 // button clear
-function clear()
+function clean()
 {
     "use strict";
-    document.getElementById("input").value=inpu.replace(inpu,'');
-    
+    document.getElementById("input").value='';
+    document.getElementById("input").placeholder='';
+    inpu=''
+}
+// button on
+function on()
+{
+    "use strict";
+    document.getElementById("input").placeholder='';
+    inpu=''
+}
+function of()
+{
+    "use strict";
+    document.getElementById("input").placeholder='CASIO';
+    inpu=''
 }
 // button delete
 function conctbtdel()
