@@ -20,7 +20,7 @@ var inpu = document.getElementById("input").value,
 function conctbt1()
 {
     "use strict";
-    if (document.getElementById("input").readOnly == false)
+    if (document.getElementById("input").readOnly == false && document.getElementById("input").placeholder == '')
     {
         inpu +=b1;
         document.getElementById("input").value=inpu;
@@ -30,7 +30,7 @@ function conctbt1()
 function conctbt2()
 {
     "use strict";
-    if (document.getElementById("input").readOnly == false)
+    if (document.getElementById("input").readOnly == false && document.getElementById("input").placeholder == '')
     {
         inpu +=b2;
         document.getElementById("input").value=inpu
@@ -40,7 +40,7 @@ function conctbt2()
 function conctbt3()
 {
     "use strict";
-    if (document.getElementById("input").readOnly == false)
+    if (document.getElementById("input").readOnly == false && document.getElementById("input").placeholder == '')
     {
         inpu +=b3;
         document.getElementById("input").value=inpu
@@ -50,7 +50,7 @@ function conctbt3()
 function conctbt4()
 {
     "use strict";
-    if (document.getElementById("input").readOnly == false)
+    if (document.getElementById("input").readOnly == false && document.getElementById("input").placeholder == '')
     {
         inpu +=b4;
         document.getElementById("input").value=inpu
@@ -60,7 +60,7 @@ function conctbt4()
 function conctbt5()
 {
     "use strict";
-    if (document.getElementById("input").readOnly == false)
+    if (document.getElementById("input").readOnly == false && document.getElementById("input").placeholder == '')
     {
         inpu +=b5;
         document.getElementById("input").value=inpu
@@ -70,7 +70,7 @@ function conctbt5()
 function conctbt6()
 {
     "use strict";
-    if (document.getElementById("input").readOnly == false)
+    if (document.getElementById("input").readOnly == false && document.getElementById("input").placeholder == '')
     {
         inpu +=b6;
         document.getElementById("input").value=inpu
@@ -80,7 +80,7 @@ function conctbt6()
 function conctbt7()
 {
     "use strict";
-    if (document.getElementById("input").readOnly == false)
+    if (document.getElementById("input").readOnly == false && document.getElementById("input").placeholder == '')
     {
         inpu +=b7;
         document.getElementById("input").value=inpu
@@ -90,7 +90,7 @@ function conctbt7()
 function conctbt8()
 {
     "use strict";
-    if (document.getElementById("input").readOnly == false)
+    if (document.getElementById("input").readOnly == false && document.getElementById("input").placeholder == '')
     {
         inpu +=b8;
         document.getElementById("input").value=inpu
@@ -100,7 +100,7 @@ function conctbt8()
 function conctbt9()
 {
     "use strict";
-    if (document.getElementById("input").readOnly == false)
+    if (document.getElementById("input").readOnly == false && document.getElementById("input").placeholder == '')
     {
         inpu +=b9;
         document.getElementById("input").value=inpu
@@ -110,7 +110,7 @@ function conctbt9()
 function conctbt0()
 {
     "use strict";
-    if (document.getElementById("input").readOnly == false)
+    if (document.getElementById("input").readOnly == false && document.getElementById("input").placeholder == '')
     {
         inpu +=b0;
         document.getElementById("input").value=inpu
@@ -120,7 +120,7 @@ function conctbt0()
 function conctbtpl()
 {
     "use strict";
-    if (document.getElementById("input").readOnly == false)
+    if (document.getElementById("input").readOnly == false && document.getElementById("input").placeholder == '')
     {
         inpu +=plus;
         document.getElementById("input").value=inpu
@@ -130,7 +130,7 @@ function conctbtpl()
 function conctbteq()
 {
     "use strict";
-    if (document.getElementById("input").readOnly == false)
+    if (document.getElementById("input").readOnly == false && document.getElementById("input").placeholder == '')
     {
         if(eval(inpu) == undefined) // if input empty
         {
@@ -155,7 +155,7 @@ function conctbteq()
 function conctbtmi()
 {
     "use strict";
-    if (document.getElementById("input").readOnly == false)
+    if (document.getElementById("input").readOnly == false && document.getElementById("input").placeholder == '')
     {
         inpu +=bmi;
         document.getElementById("input").value=inpu
@@ -165,7 +165,7 @@ function conctbtmi()
 function conctbtml()
 {
     "use strict";
-    if (document.getElementById("input").readOnly == false)
+    if (document.getElementById("input").readOnly == false && document.getElementById("input").placeholder == '')
     {
         inpu +=bml;
         document.getElementById("input").value=inpu
@@ -175,7 +175,7 @@ function conctbtml()
 function conctbtdiv()
 {
     "use strict";
-    if (document.getElementById("input").readOnly == false)
+    if (document.getElementById("input").readOnly == false && document.getElementById("input").placeholder == '')
     {
         inpu +=bdi;
         document.getElementById("input").value=inpu
@@ -185,7 +185,7 @@ function conctbtdiv()
 function conctbtp()
 {
     "use strict";
-    if (document.getElementById("input").readOnly == false)
+    if (document.getElementById("input").readOnly == false && document.getElementById("input").placeholder == '')
     {
         inpu +=bpri;
         document.getElementById("input").value=inpu
@@ -195,7 +195,7 @@ function conctbtp()
 function conctbtd()
 {
     "use strict";
-    if (document.getElementById("input").readOnly == false)
+    if (document.getElementById("input").readOnly == false && document.getElementById("input").placeholder == '')
     {
         inpu +=bd;
         document.getElementById("input").value=inpu
@@ -205,7 +205,7 @@ function conctbtd()
 function clean()
 {
     "use strict";
-    if (document.getElementById("input").readOnly == false)
+    if (document.getElementById("input").readOnly == false && document.getElementById("input").placeholder == '')
     {
         document.getElementById("input").value='';
         document.getElementById("input").placeholder='';
