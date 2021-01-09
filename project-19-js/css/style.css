@@ -1,0 +1,176 @@
+body
+{
+    margin: 0;
+}
+.head
+{
+    background-color: gainsboro;
+    background-image: url(../images/engineering-and-design.jpg);
+    background-size: cover;
+    height: 700px;
+    font-family:'pacifico';
+    text-align: center;
+    margin: 0;
+}
+.head .sect1
+{
+    background-color: rgb(25 3 3 / 50%);
+    height: 700px;
+}
+.head .sect1 .img
+{
+}
+.head .sect1 .img h2
+{
+    float: left;
+    text-shadow: 1px 1px 1px black;}
+.head .sect1 .img ul
+{
+    float: right;
+}
+.head .sect1 .img ul li
+{
+    float: left;
+    padding: 20px;
+    list-style: none;
+}
+-webkit-@font-face
+{
+    font-family:'pacifico';
+    src:url(../fonts/Pacifico-Regular.ttf);
+}
+@font-face
+{
+    font-family:'pacifico';
+    src:url(../fonts/Pacifico-Regular.ttf);
+}
+.head .sect1 .sect2
+{
+    clear: both;
+    /* margin:80% 35%; */
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+}
+.head .sect1 .sect2 .icon
+{
+    font-size: 20px;
+    position: fixed;
+    text-align: left;
+    top: 40%;
+    right: -180px;
+    padding: 20px;
+    margin: 0;
+    background:white;
+    display: inline-block;
+    border-radius:3px;transition:3s ease-in-out all;
+    
+}
+.head .sect1 .sect2 h3
+{
+    /*margin: 20px 100px;*/
+}
+.hr
+{
+    width: 8%;
+    margin: 20px 46%;
+}
+.head .sect1 .sect2 button
+{
+    font-size: 25px;
+     margin: 20px 100px;
+    background-image:linear-gradient(to right,#788bc3,hotpink);
+    border-radius: 50px;
+    padding: 20px;
+}
+.bod
+{
+    background-color:#788bc3;
+    text-align: center;
+    padding: 100px;
+    margin:0;
+}
+.bod .but2
+{
+    border-radius: 0 100px 100px 0;
+    padding: 20px;
+    margin: -4px;
+}
+.bod .but1
+{
+    border-radius: 100px 0 0 100px;
+    padding: 20px;
+    margin: -4px;
+}
+.bod button:hover
+{
+    background-color: #dcafd5;
+}
+.n
+{
+    text-align: center;
+}
+.fl-left
+{
+    float: left;
+}
+.fl-right
+{
+    float: right;
+}
+.n div
+{
+    margin: 20px 110px;
+}
+.n div a
+{
+    color: #b30795;
+    font-size: 40px;
+}
+.red
+{
+    color: red;
+    background-color: red;
+}
+.blue
+{
+    color: dodgerblue;
+    background-color: dodgerblue
+}
+.green
+{
+    color: greenyellow;
+    background-color: greenyellow
+}
+.blueviolet
+{
+    color:#788bc3;
+}
+.sub  {
+    clear: both;
+    text-align: center;
+}
+.sub .main
+{
+    
+    border: 1px solid black;
+    background-color: azure;
+    color: yellowgreen;
+    padding: 20px;
+}
+.sub .set
+{
+    
+    border: 1px solid black;
+    background-color:gray;
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+.sub .set div
+{
+    margin: 10px 45%;
+    padding: 20px;
+    width: 10%;
+    text-align: center;
+    background-color: orange;
+}
