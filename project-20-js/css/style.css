@@ -1,0 +1,177 @@
+/* 277 lines */
+body
+{
+    margin: 0;
+    background-color: black;
+}
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing:border-box;
+    font-family: arial;
+    -webkit-transition:all 1s ease-in-out 4s;
+    transition:all 1s ease-in-out 1s;
+}
+.container 
+{
+    width: 100%;
+}
+/* start style of header */
+header 
+{
+    z-index: 2;
+    position:fixed;
+    top:0;
+    margin:0;
+    width: 100%;
+    background-color:gainsboro;
+    -webkit-box-shadow: 3px 3px 5px dodgerblue inset,
+        -3px -3px 5px dodgerblue inset,
+        3px 6px 5px pink inset,
+        -3px -6px 5px pink inset;
+    box-shadow: 3px 3px 5px dodgerblue inset,
+        -3px -3px 5px dodgerblue inset,
+        3px 6px 5px pink inset,
+        -3px -6px 5px pink inset;  
+}
+[href^="#home"]
+{
+    padding: 20px;
+    font-size: 20px;
+    margin: 0;
+    margin-left: -58px;
+    background-color:dodgerblue;
+    
+}
+header .container  ul li
+{
+    padding:0 20px;
+    margin: 0;
+}
+    
+header .container  ul li:hover 
+{
+    background-color:azure;
+}
+header .container  ul li img 
+{
+    width:15px;
+    height: 15px;
+}
+/* end style of header */
+ .content
+{
+    padding: 70px 0;
+    background-image: url(../images/1828458.jpg);
+    background-size: cover;
+    height: 100%;
+}
+.content ul li a
+{
+    font-size:20px;
+    position: fixed;
+    left: -8%;
+    padding: 20px 70px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+.content  ul li a[ href="https://twitter.com"]
+{
+    top:120px;
+    background-color:hotpink;
+}
+.content  ul li a[ href="https://facebook.com"]
+{
+    top:200px;
+    background-color:dodgerblue;
+}
+.content  ul li a[  href="https://whatsapp.com"]
+{
+    top:280px;
+    background-color:gainsboro;
+}
+.content  ul li a:hover
+{
+    left: 0;
+}
+.content  .add,.content .promp,.content .chang,.content .num
+{
+    font-family: 'indie flower';
+    text-align: center;
+    width: 85%;
+    background-color:gainsboro;
+    padding: 20px;
+    margin: 3% 7.5%;
+    text-align: center;
+    -webkit-box-shadow: 8px 8px 10px rgba(0,0,255,0.5),
+        -8px -8px 10px rgba(255,0,0,0.5);
+    box-shadow: 8px 8px 10px rgba(0,0,255,0.5),
+        -8px -8px 10px rgba(255,0,0,0.5);
+    text-shadow: 1px 3px 3px orange;
+}
+.content  div,.content .add input
+{
+    width: 85%;
+    background-color:gainsboro;
+    padding: 20px;
+    margin: 3% 7%;
+    text-align: center;
+    -webkit-box-shadow: 8px 8px 10px rgba(0,0,255,0.5),
+        -8px -8px 10px rgba(255,0,0,0.5);
+    box-shadow: 8px 8px 10px rgba(0,0,255,0.5),
+        -8px -8px 10px rgba(255,0,0,0.5);
+    text-shadow: 1px 3px 3px orange;
+}
+.content .chang input
+{
+    margin: 5%;
+}
+.content .chang input[type="text"]
+{
+    width: 40%;
+    height:30px; 
+}
+.content  button
+{
+    background-image: linear-gradient(to right,blue,red);
+    padding: 20px;
+    border-radius: 50px 10px 50px 10px;
+}
+/* start footer */
+footer
+{
+    color: white;
+    text-align: center;
+}
+/* end footer */
+    
+/* start framework */
+.fl-left
+{
+    float: left;
+}
+.fl-right
+{
+    float: right;
+}
+.ov-hidden
+{
+    overflow: hidden;
+}
+.a-style
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #0518db;
+}
+.ul-style
+{
+    list-style: none;
+}
+.hr
+{
+    width: 80%;
+}
+/* end framework */

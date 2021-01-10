@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="hello">
+        <title>Ragaa_project-revesion_js</title>                            <!----- title ----->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- start fontawesome css -->
+        <link rel="stylesheet" href="css/brands.min.css">
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+        <link rel="stylesheet" href="css/solid.css">
+        <!-- end fontawesome css -->
+    </head>
+    <body>
+        <!-- start header -->
+        <header class ="ov-hidden" id="home">
+            <!-- start section of container -->
+            <section class="container">
+                <ul class=" ul-style fl-left">
+                    <li class="fl-left li"><a class="a-style" href="#home">home</a></li>
+                    <li class="fl-left li"><a class="a-style" href="#welcome">shargin<img src="images/black.png"></a></li>
+                    <li class="fl-left li"><a class="a-style" href="#anime9">itach<img src="images/black2.png"></a></li>
+                </ul>
+                <!-- start unorder list -->
+                <ul class="ul-style fl-right">                                                              
+                    <li class="fl-left li" ><input type="search" name="search" id="search"></li>                                                        <!-- first element -->
+                    <li class="fl-left li" ><a class="a-style" href="#search">search<i class="fas fa-search"></i></a></li>                              <!-- second element -->
+                </ul>
+                <!-- end unorder list -->
+                
+            </section>
+            <!-- end section of container -->
+        </header>
+        <!-- end header -->
+        <section class="content ov-hidden">
+            <section class="total">
+                <!-- start unorder list -->
+            <ul class="ul-style fl-left">
+                <li class="fl-left"><a  class="a-style" href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>           <!-- first element -->
+                <li class="fl-left"><a  class="a-style" href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>       <!-- second element -->
+                <li class="fl-left"><a  class="a-style" href="https://whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a></li>         <!-- third element -->
+            </ul>
+            <!-- end unorder list -->
+            <section class="add">
+                <div id="first">type the first number</div>
+                <input type="text" placeholder="type number" value="" id="num1">
+                <div>type the second number</div>
+                <input type="text" placeholder="type number" value="" id="num2">
+                <div id="summ">the plus of them is :</div>
+                <button id="cacul" onclick="add()">add</button>
+            </section>
+            </section>
+            <hr class="hr">
+            <section class="promp">
+                <button id="pro" onclick="po()">prompt</button>
+                <p id="text"></p>
+            </section>
+            <hr class="hr">
+            <section class="chang">
+                <div id="time" onclick="ti()">tell me time on click</div>
+                <hr class="hr">
+                <input type="text" id="in" oninput="le()" style="display: inline">
+                <p id="leng" class="" style="display: inline"></p>
+                <hr class="hr">
+                <input type="color" id="colo">
+                <div id="co" onmouseover="chan()" style="display: inline">hover to change background color</div>
+            </section>
+            <hr class="hr">
+            <section class="num ">
+                <input type="text" id="nu">
+                <p>choose number of elements to store(maximum 19 users)</p>
+                <p onclick="nam()">make array</p>
+                <p id="name"></p>
+            </section>
+        </section>
+        <footer>copyright&copy;Ragaa ismail fayez</footer>
+        <!-- start javascript fontawesome -->
+        <script src="js/brands.min.js"></script>
+        <script src="js/fontawesome.min.js"></script>
+        <script src="js/solid.min.js"></script>
+        <!-- end javascript fontawesome -->
+        <script src="js/file.js"></script>
+    </body>
+</html>
