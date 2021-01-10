@@ -31,7 +31,7 @@ body
 .head .sect1 .img ul li
 {
     float: left;
-    padding: 20px;
+    padding: 0 20px;
     list-style: none;
 }
 -webkit-@font-face
@@ -173,4 +173,32 @@ body
     width: 10%;
     text-align: center;
     background-color: orange;
+}
+.contact
+{
+    padding: 20px;
+    text-align: center;
+}
+.contact div img
+{
+    
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 20%;
+    background-color: pink
+}
+.contact div img:hover
+{
+    box-shadow: 1px 3px 3px black,
+        1px -3px 3px black;
+    transform-style: preserve-3d;
+    transform: translateZ(-30px) scale(0.95);
+    perspective: 300px;
+}
+footer
+{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
 }
