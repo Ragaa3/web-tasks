@@ -12,10 +12,10 @@ div
     margin-top: 5%;
     margin-left: 30%;
 }
-div .input
+div input
 {
-    background-color:dodgerblue;
-    width: 76%;
+    display: inline-block;
+    width: 88%;
 }
 div input[type="text"]
 {
@@ -24,9 +24,22 @@ div input[type="text"]
 }
 div button
 {
-    width: 32%;
+    width: 23.9%;
     margin: 1% 0;
     font-size: 40px;
     box-shadow: 1px 3px 3px blue;
     background-color: #bb9ce0;
+}
+div button[id="pluse"]
+{
+    height: 118px;
+    margin: 1% 0;
+}
+.fl-left
+{
+    float: left;
+}
+.fl-right
+{
+    float: right;
 }

@@ -1,3 +1,4 @@
+
 var inpu = document.getElementById("input").value,
     b1 = document.getElementById("bt1").value,
     b2 = document.getElementById("bt2").value,
