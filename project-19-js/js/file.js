@@ -1,3 +1,21 @@
+function fa()
+{
+    var i =0;
+    var b = window.setInterval(function(){
+        var a ="factly of engineering";
+        if(i == a.length)
+        {
+            window.clearInterval(b);
+        }
+        else
+        {
+            document.getElementById("fact").innerHTML +=a[i];
+            i++;
+        }
+        },200);
+   
+}
+window.setTimeout(fa(),1000);
 function my(a)
 {
     var i =0;
@@ -129,5 +147,50 @@ function app5()
         document.getElementById("set5").style.display="none";
     }
 }
+function ma()
+{
+    var i =0,
+        j=0;
+    var b = window.setInterval(function(){
+        var a ="Ragaa ismail fayez";
+        var t ="20+0111 112 3456  ";
+        if(i == a.length)
+        {
+            window.clearInterval(b);
+            document.getElementById("marwa").innerHTML=" ";
+            document.getElementById("im").src="images/See_No_Evil_Monkey_Emoji_grande.png";
+            var c = window.setInterval(function(){
+        var n ="I am a web designer";
+        if(j == n.length)
+        {
+            window.clearInterval(c);
+        }
+        else
+        {
+            if(j %2 !=0 && j!=0)
+            {
+                document.getElementById("im").src="images/kisspng-the-evil-monkey-emoji-three-wise-monkeys-clip-art-evil-monkey-cliparts-5ab353b166de81.0858999115217018094214.jpg";
+            }
+            else
+            {
+                document.getElementById("im").src="images/See_No_Evil_Monkey_Emoji_grande.png";
+            }
+            document.getElementById("marwa").innerHTML +=n[j];
+            j++;
+        }
+        },300);
+        }
+        else
+        {
+            
+            document.getElementById("marwa").innerHTML +=a[i];
+            document.getElementById("tel").innerHTML +=t[i];
+            i++;
+        }
+        },200);
+   
+}
+window.setTimeout(ma(),10000);
+
 
         
