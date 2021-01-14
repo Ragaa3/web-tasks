@@ -32,30 +32,37 @@
             <!-- end section of container -->
         </header>
         <!-- end header -->
+        <!-- start section of content -->
         <section class="content ov-hidden">
             <section class="total">
+                
                 <!-- start unorder list -->
-            <ul class="ul-style fl-left">
-                <li class="fl-left"><a  class="a-style" href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>           <!-- first element -->
-                <li class="fl-left"><a  class="a-style" href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>       <!-- second element -->
-                <li class="fl-left"><a  class="a-style" href="https://whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a></li>         <!-- third element -->
-            </ul>
-            <!-- end unorder list -->
-            <section class="add">
-                <div id="first">type the first number</div>
-                <input type="text" placeholder="type number" value="" id="num1">
-                <div>type the second number</div>
-                <input type="text" placeholder="type number" value="" id="num2">
-                <div id="summ">the plus of them is :</div>
-                <button id="cacul" onclick="add()">add</button>
-            </section>
+                <ul class="ul-style fl-left">
+                    <li class="fl-left"><a  class="a-style" href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>           <!-- first element -->
+                    <li class="fl-left"><a  class="a-style" href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>       <!-- second element -->
+                    <li class="fl-left"><a  class="a-style" href="https://whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a></li>         <!-- third element -->
+                </ul>
+                <!-- end unorder list -->
+                <!-- start section to add two number -->
+                <section class="add"> 
+                   <div id="first">type the first number</div>
+                   <input type="text" placeholder="type number" value="" id="num1">       <!-- first number -->
+                   <div>type the second number</div>
+                   <input type="text" placeholder="type number" value="" id="num2">       <!-- second number -->
+                   <div id="summ">the plus of them is :</div>
+                   <button id="cacul" onclick="add()">add</button>
+                </section>
+                <!-- end section to add two number -->
             </section>
             <hr class="hr">
+            <!-- start section to prompt -->
             <section class="promp">
                 <button id="pro" onclick="po()">prompt</button>
                 <p id="text"></p>
             </section>
+            <!-- end section to prompt -->
             <hr class="hr">
+            <!-- start section in which time , input color change and length of input -->
             <section class="chang">
                 <div id="time" onclick="ti()">tell me time on click</div>
                 <hr class="hr">
@@ -65,15 +72,23 @@
                 <input type="color" id="colo">
                 <div id="co" onmouseover="chan()" style="display: inline">hover to change background color</div>
             </section>
+            <!-- end section in which time , input color change and length of input -->
             <hr class="hr">
+            <!-- start section to input number and input names -->
             <section class="num ">
                 <input type="text" id="nu">
                 <p>choose number of elements to store(maximum 19 users)</p>
                 <p onclick="nam()">make array</p>
                 <p id="name"></p>
             </section>
+            <!-- end section to input number and input names -->
         </section>
-        <footer>copyright&copy;Ragaa ismail fayez</footer>
+        <!-- end section of content -->
+        <!-- start footer -->
+        <footer>
+            copyright&copy;Ragaa ismail fayez
+        </footer>
+        <!-- end footer -->
         <!-- start javascript fontawesome -->
         <script src="js/brands.min.js"></script>
         <script src="js/fontawesome.min.js"></script>

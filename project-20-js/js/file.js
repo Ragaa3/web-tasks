@@ -1,4 +1,4 @@
-// 63 lines
+// 64 lines
 // function to plus two number
 function add()
 {
@@ -8,10 +8,10 @@ function add()
         c=a+b;
     if(isNaN(a) || isNaN(b)) // if (a or b) are not a number true
     {
-        document.getElementById("summ").innerHTML="sorry it is not a number";
         alert("focus on what write");
+        document.getElementById("summ").innerHTML="sorry it is not a number";
     }
-    else if(a=="" || b=="")   // if (a or b)is not a number false and a or b is empty
+    else if(document.getElementById("num1").value=="" || document.getElementById("num2").value=="")   // if (a or b)is not a number false and a or b is empty
     {
         document.getElementById("summ").innerHTML="please a number";
     }
@@ -39,7 +39,7 @@ function le()
 {
     "use strict";
     var a = document.getElementById("in").value;
-    document.getElementById("leng").innerHTML=a.length;
+    document.getElementById("leng").innerHTML=a.length; 
 }
 // function to change color
 function chan()
@@ -55,10 +55,12 @@ function nam()
     var v = document.getElementById("nu").value;
     for(var i=1;i<=Number(v);i++)
     {
-        var n =prompt("type element number"+i);
-        document.getElementById("name").innerHTML+=" name is :"+n+"<br>"
+        var n =prompt("type element number"+i),
+            b = "one two three four five six seven eight nine ten eleven twelve thrteen fourteen fivteen sixteen seventeen eighteen nineteen";
+        b=b.split(' ',i).toString();
+        b=b.slice(b.lastIndexOf(',')+1,b.length);
+        document.getElementById("name").innerHTML+=b+" name is :"+n+"<br>";
     }
-    
 }
         
     
