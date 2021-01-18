@@ -1,0 +1,52 @@
+body
+{
+    
+}
+.navbar
+{
+    margin-bottom: 0;
+}
+.im
+{
+    color: dodgerblue;
+}
+.carousel-indicators li
+{
+    border: 1px solid red;
+    margin: 20px 0;
+}
+.carousel-indicators .active
+{
+    width: 11px;
+    height: 11px;
+    background-color: red;
+    margin: 20px 0;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img
+{
+    width: 100%;
+    height:600px;
+    top:0;
+    margin: 0;
+}
+.item
+{
+    top:0;
+}
+.carousel-caption
+{
+    background-color: rgb(72 67 178 / 50%);
+    line-height: 30px;
+    padding: 30px;
+    top:25%;
+    bottom:15%;
+}
+.carousel-caption .btn-danger .glyphicon
+{
+    margin: 4px;
+}
+.left .glyphicon,.right .glyphicon
+{
+    top:50%;
+    color: #3209b1;
+}
