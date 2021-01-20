@@ -2,10 +2,6 @@ body
 {
     background-color: aliceblue;
 }
-body:-webkit-full-page-media 
-{
-    background-color: aliceblue;
-}
 .navbar
 {
     margin-bottom: 0;
@@ -32,10 +28,10 @@ body:-webkit-full-page-media
     border: 1px solid red;
     margin: 20px 0;
 }
-.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img
+.he
 {
     width: 100%;
-    height:600px;
+    height:400px;
     top:0;
     margin: 0;
 }
@@ -43,13 +39,15 @@ body:-webkit-full-page-media
 {
     top:0;
 }
-.carousel-caption
+.ab
 {
     background-color: rgb(72 67 178 / 50%);
-    line-height: 30px;
-    padding: 30px;
+}
+.carousel-caption
+{
     top:25%;
-    bottom:15%;
+    bottom: 20%;
+    padding: 30px;
 }
 .carousel-caption .btn-danger .glyphicon
 {
@@ -73,4 +71,95 @@ video:-webkit-full-page-media
 {
     margin-bottom: 10px;
     margin-top: 10px;
+}
+.prices
+{
+    padding: 20px;
+}
+.prices .pri
+{
+    background-color:white;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 5px 5px black;
+    padding: 20px;
+    margin-left: 6.25%;
+}
+.servies
+{
+    padding: 30px;
+}
+.sevr
+{
+  position: relative;  
+}
+.imn
+{
+    width: 100%;
+    height:300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.em
+{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    background-color: rgb(72 67 178 / 50%);
+    z-index: 2;
+    display: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.imn:hover~.em
+{
+    display: block;
+}
+.test .imagg li
+{
+    text-indent: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    opacity: 0.7;
+    border: 1px solid red;
+}
+.test .imagg  .active
+{
+    opacity: 1;
+}
+.test .imagg li img
+{
+    max-width: 100%;
+    height: 50px;
+     border-radius: 50%;
+    
+}
+.comt
+{
+    background-color:white;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    box-shadow: 1px 5px 5px black;
+    padding: 20px;
+    margin-left: 6.25%;
+    height: 400px;
+    color: #332e2e;
+}
+    
+.comme
+{
+    height: 600px;
+}
+.comt  .te
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: -60px;
+    
 }
