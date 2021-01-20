@@ -75,7 +75,7 @@ video:-webkit-full-page-media
 }
 .prices
 {
-    padding: 20px;
+    padding: 50px;
 }
 .prices .pri
 {
@@ -88,9 +88,10 @@ video:-webkit-full-page-media
     padding: 20px;
     margin-left: 6.25%;
 }
-.servies
+.services
 {
-    padding: 30px;
+    padding: 50px;
+    background-color: gainsboro;
 }
 .sevr
 {
@@ -118,6 +119,10 @@ video:-webkit-full-page-media
 {
     display: block;
 }
+.test
+{
+    padding: 50px;
+}
 .test .imagg li
 {
     text-indent: 0;
@@ -144,12 +149,12 @@ video:-webkit-full-page-media
     border-radius: 20px;
     border: 1px solid black;
     margin-top: 50px;
-    margin-bottom: 10px;
     box-shadow: 1px 5px 5px black;
     padding: 20px;
     margin-left: 6.25%;
     height: 400px;
     color: #332e2e;
+    margin-bottom: 80px;
 }
     
 .comme
@@ -159,8 +164,31 @@ video:-webkit-full-page-media
 .comt  .te
 {
     width: 90px;
-    height: 90px;
+    height:90px;
     border-radius: 50%;
     margin-top: -60px;
     
+}
+.contact
+{
+    padding: 50px;
+    background-color: gainsboro;
+}
+.fie .glyphicon
+{
+    font-size: 50px;
+}
+.fie textarea
+{
+    height: 108px;
+}
+.fie button
+{
+    height: 45px;
+}
+.img-thumbnial
+{
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
