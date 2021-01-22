@@ -11,6 +11,8 @@ body
     margin-bottom: 0;
     border-radius: 0;
     top:0;
+    position: sticky;
+    z-index:3;
 }
 .navbar-right .dropdown-menu
 {
@@ -140,6 +142,7 @@ video:-webkit-full-page-media
 .test
 {
     padding: 50px;
+    z-index:1;
 }
 .test .imagg li
 {
@@ -174,11 +177,13 @@ video:-webkit-full-page-media
     color: #332e2e;
     margin-bottom: 80px;
     font-family: 'Courgette';
+    
 }
     
 .comme
 {
     height: 600px;
+    
 }
 .comt  .te
 {
@@ -234,6 +239,15 @@ video:-webkit-full-page-media
         {
             margin-right: 0;
         }
+        .navbar-nav > li > a
+        {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .navbar-nav .open .dropdown-menu > li > a
+        {
+            line-height: 15px;
+        }
         .comme
         {
             height:700px;
@@ -246,6 +260,11 @@ video:-webkit-full-page-media
 }
 @media(max-width:398px)
     {
+        body
+        {
+            margin-right: 0;
+            m
+        }
         .comme
         {
             height:900px;
