@@ -198,6 +198,7 @@ video:-webkit-full-page-media
     padding: 50px;
     background-color: gainsboro;
 }
+
 .fie .glyphicon
 {
     font-size: 50px;
@@ -262,7 +263,6 @@ video:-webkit-full-page-media
     {
         body
         {
-            margin-right:-50px;
             max-width: 100%;
             overflow: hidden;
         }
