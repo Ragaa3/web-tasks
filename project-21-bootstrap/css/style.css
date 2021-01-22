@@ -3,19 +3,32 @@ body
     background-color: aliceblue;
     margin: 0;
 }
+/* start overead in bootstrap */
+
+/* start navbar */
 .navbar
 {
     margin-bottom: 0;
-}
-
-.im
-{
-    color: dodgerblue;
+    border-radius: 0;
+    top:0;
 }
 .navbar-right .dropdown-menu
 {
     left: 0;
     right: auto
+}
+.navbar-inverse .navbar-nav > li > a:hover,.navbar-inverse .navbar-nav > li > a:focus
+{
+    background-color:dodgerblue;
+}
+/* end navbar */
+/* start carsousel */
+ .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img
+{
+    width: 100%;
+    height:500px;
+    top:0;
+    margin: 0;
 }
 .carousel-indicators  .active
 {
@@ -29,20 +42,9 @@ body
     border: 1px solid red;
     margin: 20px 0;
 }
-.he
-{
-    width: 100%;
-    height:400px;
-    top:0;
-    margin: 0;
-}
 .item
 {
     top:0;
-}
-.ab
-{
-    background-color: rgb(72 67 178 / 50%);
 }
 .carousel-caption
 {
@@ -59,6 +61,20 @@ body
     top:50%;
     color: #3209b1;
 }
+/* end carsousel */
+/* end overead in bootstrap */
+.im
+{
+    color: dodgerblue;
+}
+.ab
+{
+    background-color: rgb(72 67 178 / 50%);
+    padding: 30px;
+    height: 70%;
+    top:15%;
+    bottom: 15%;
+}
 video:-webkit-full-page-media 
 {
     background-color: aliceblue;
@@ -67,6 +83,8 @@ video:-webkit-full-page-media
 {
     background-color: gainsboro;
     padding: 20px;
+    font-family: 'Bodoni Moda';
+    color: black;
 }
 .features .feat
 {
@@ -91,7 +109,7 @@ video:-webkit-full-page-media
 .services
 {
     padding: 50px;
-    background-color: gainsboro;
+    background-color:black;
 }
 .sevr
 {
@@ -155,6 +173,7 @@ video:-webkit-full-page-media
     height: 400px;
     color: #332e2e;
     margin-bottom: 80px;
+    font-family: 'Courgette';
 }
     
 .comme
@@ -191,4 +210,62 @@ video:-webkit-full-page-media
     height: 100px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.our-client
+{
+    border:1px solid black;
+    padding: 10px;
+}
+.our-client img
+{
+    width:70%;
+    margin: 10px 15%;
+    height: 50px;
+    opacity: 0.5;
+    filter:alpha(opcity=50);
+    color:black
+}
+.our-client img:hover{
+    opacity: 1;
+}
+@media(max-width:520px)
+    {
+        body
+        {
+            margin-right: 0;
+        }
+        .comme
+        {
+            height:700px;
+        }
+        .comt
+        {
+            margin-left:5px;
+            height: 500px;
+        }
+}
+@media(max-width:398px)
+    {
+        .comme
+        {
+            height:900px;
+        }
+        .comt
+        {
+            margin-left:0;
+            height: 600px;
+            width: 95%;
+            margin-top: 20px;
+            font-size: 10px;
+            overflow-x:visible;
+        }
+        .comt  .te
+{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    margin-top: -60px;
+    overflow: visible;
+    
+}
 }
