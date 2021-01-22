@@ -262,8 +262,9 @@ video:-webkit-full-page-media
     {
         body
         {
-            margin-right: 0;
-            m
+            margin-right:-50px;
+            max-width: 100%;
+            overflow: hidden;
         }
         .comme
         {
