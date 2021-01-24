@@ -1,0 +1,21 @@
+.about-us 
+{
+    padding: 20px;
+}
+.about-us img
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.ceo-about 
+{
+    padding-top: 20px;
+}
+.ceo-about img
+{
+    height: 500px;
+}
+.ceo-about .text
+{
+    margin-top: 50px;
+}

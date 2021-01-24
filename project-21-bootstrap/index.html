@@ -9,6 +9,8 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/bootstrap-icons.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/hover.css">
+        <link rel="stylesheet" href="css/animate.css">
         <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@700&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Courgette&family=Dancing+Script:wght@700&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
 
@@ -27,13 +29,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">L H<span class="im">OTEL</span></a>
+      <a class="navbar-brand hvr-pop" href="#">L H<span class="im">OTEL</span></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#about">about</a></li>
+        <li class="active"><a href="index.html">home</a></li>
+          <li ><a href="about.html">about</a></li>
           <li><a href="#features">features</a></li>
           <li><a href="#prices">prices</a></li>
         
@@ -50,8 +53,8 @@
           </ul>
           </li>
           <li><a href="#carousel-test">testimonials</a></li>
-          <li><a href="#">team</a></li>
-          <li><a href="#">contacts</a></li> 
+          <li><a href="#team">team</a></li>
+          <li><a href="#contact">contacts</a></li> 
       </ul>
        
                  
@@ -69,17 +72,17 @@
             </ol>
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
-                <div class="item active">
+                <div class="item active ">
                     <img  class="he" src="images/1246280_16061017110043391702.jpg" alt="...">
-                    <div class="ab carousel-caption hidden-xs">
+                    <div class="ab carousel-caption hidden-xs hvr-pop">
                         <h2>welcome in L HOTEL 5&nbsp;<span class="glyphicon glyphicon-star-empty"></span>
                         <span class="glyphicon glyphicon-star-empty"></span>
                         <span class="glyphicon glyphicon-star-empty"></span>
                         <span class="glyphicon glyphicon-star-empty"></span>
                         <span class="glyphicon glyphicon-star-empty"></span></h2>
                         <p class="lead text-center hidden-xs"> Book Direct at any of Our Hotels to Enjoy the Best Offer & Other Benefits! Modern & Stylish Décor. Amenities: Free Wi-Fi, Swimming Pool, Fitness Center.</p>
-                        <div class="btn btn-primary">learn more</div>
-                        <div class="btn btn-danger"><span class="glyphicon glyphicon-log-in"></span>log in</div>
+                        <div class="btn btn-primary hvr-pop">learn more</div>
+                        <div class="btn btn-danger hvr-pop"><span class="glyphicon glyphicon-log-in"></span>log in</div>
                     </div>
                 </div>
                 <div class="item">
@@ -129,7 +132,7 @@
         </div>
         <!-- end carousel -->
         <!-- start a"bout section -->
-        <section id="about" class="about text-center">
+        <section id="about" class="about text-center wow bounceIn" data-wow-offset="300">
             <section class="container">
                 <h1 >welcome to you in L H<span class="im">OTEL</span></h1>
                 <p class="lead">L Hotel is your perfect choice as it provides you with an ideal combination of value and comfort and gives you family friendly atmosphere with many luxuries</p>
@@ -141,19 +144,19 @@
         <section id="features"class="features">
             <section class="container">
                 <h1 class="text-center">features</h1>
-                <div class="feat col-md-4 col-xs-12 text-center">
+                <div class="feat col-md-4 col-xs-12 text-center wow bounceInLeft" data-wow-offset="200">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-diamond-fill" viewBox="0 0 16 16">
                          <path fill-rule="evenodd" d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435z"/>
                     </svg>
                     <h1>goal</h1>
                     <p class="lead">our primary goal comfort,luxury and safety of our gusets,providing them with tranquility and all means ,free wifi,24 hour room service</p>
                 </div>
-                <div class="feat col-md-4 col-xs-12 text-center">
+                <div class="feat col-md-4 col-xs-12 text-center wow bounceInUp" data-wow-offset="200">
                     <span class="glyphicon glyphicon-cutlery"></span>
                     <h1>food</h1>
                     <p class="lead">Look for a hotel that offers a variety of options in addition to room service, including fine dining, casual or pub-style dining, a grab-and-go shop and/or a premium coffee shop. It’s a good sign when locals frequent the hotel’s restaurants and bars.</p>
                 </div>
-                <div class="feat col-md-4 col-xs-12 text-center">
+                <div class="feat col-md-4 col-xs-12 text-center wow bounceInRight" data-wow-offset="200">
                     <span class="glyphicon glyphicon-list-alt"></span>
                     <h1>prices</h1>
                     <p class="lead">amazing adventures our prices are fantastic! book your family vacation and get 50% discount</p>
@@ -165,12 +168,12 @@
         <section id="prices"class="prices">
             <section class="container">
                 
-                <div class="pri col-md-3   col-xs-12 text-center">
+                <div class="pri col-md-3   col-xs-12 text-center wow fadeInUp " data-wow-duration='5s' data-wow-offset="400">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
   <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
 </svg>
                     <h2>prices seven days</h2>
-                    <p class="lead">70$</p>
+                    <p class="lead hvr-grow-rotate">70$</p>
                     <ul class="list-unstyled lead">
                         <li> number of days:six days</li>
                         <li>type of room:single room</li>
@@ -178,14 +181,14 @@
                         <li>services:24 hours</li>
                         <li>food:brackfast,lunch and dinner</li>
                     </ul>
-                    <div class="btn btn-success">booking now</div>
+                    <div class="btn btn-success hvr-pop">booking now</div>
                 </div>
-                <div class="pri col-md-3 col-xs-12 text-center">
+                <div class="pri col-md-3 col-xs-12 text-center wow fadeInDown" data-wow-duration='5s' data-wow-offset="400">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
   <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
 </svg>
                     <h2>prices one day</h2>
-                    <p class="lead">20$</p>
+                    <p class="lead hvr-grow-rotate ">20$</p>
                     <ul class="list-unstyled lead">
                         <li>number of days:one day</li>
                         <li>type of room:single room</li>
@@ -193,14 +196,14 @@
                         <li>services:24 hours</li>
                         <li>food:brackfast,lunch and dinner</li>
                     </ul>
-                    <div class="btn btn-danger">booking now</div>
+                    <div class="btn btn-danger hvr-pop">booking now</div>
                 </div>
-                <div class="pri col-md-3 col-xs-12  text-center">
+                <div class="pri col-md-3 col-xs-12  text-center wow fadeInUp " data-wow-duration='5s' data-wow-offset="400">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
   <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
 </svg>
                     <h2>prices five days</h2>
-                    <p class="lead">50$</p>
+                    <p class="lead hvr-grow-rotate">50$</p>
                     <ul class="list-unstyled lead">
                         <li>number of days:five days</li>
                         <li>type of room:single room</li>
@@ -208,47 +211,47 @@
                         <li>services:24 hours</li>
                         <li>food:brackfast,lunch and dinner</li>
                     </ul>
-                    <div class="btn btn-primary">booking now</div>
+                    <div class="btn btn-primary hvr-pop">booking now</div>
                        
                 </div>
             </section>
         </section>
         <!-- end prices section-->
         <!-- start services -->
-        <section class="services clearfix">
-            <div class=" serv col-md-4 col-xs-12" id="room">
+        <section class="services clearfix" >
+            <div class=" serv col-md-4 col-xs-12 wow bounceInLeft" id="room" data-wow-duration='5s' data-wow-offset="200">
                 <img class="imn"src="images/giphy.gif">
             </div>
-            <div class="serv col-md-4 col-xs-12">
+            <div class="serv col-md-4 col-xs-12 wow bounceInUp" data-wow-duration='5s' data-wow-offset="200">
                 <img class="imn"src="images/SB-ATL-ZookHome-9-e1538165814448.jpg">
             </div>
-            <div class="serv col-md-4 col-xs-12">
+            <div class="serv col-md-4 col-xs-12 wow bounceInRight" data-wow-duration='5s' data-wow-offset="200">
                 <img class="imn" src="images/12_tokyo-prince-hotel-rooms-4-8FDeluxeTwinRoom-noon-.jpg">
             </div>
-            <div class="serv col-md-4 col-xs-12" id="res">
+            <div class="serv col-md-4 col-xs-12 wow bounceInLeft" id="res" data-wow-duration='5s' data-wow-offset="220">
                 <img class="imn" src="images/cooked-hotel-breakfast.jpg">
             </div>
-            <div class="serv col-md-4 col-xs-12">
+            <div class="serv col-md-4 col-xs-12 wow bounceInUp" data-wow-duration='5s' data-wow-offset="220">
                 <img class="imn" src="images/food-crop.jpg">
             </div>
-            <div class="serv col-md-4 col-xs-12">
+            <div class="serv col-md-4 col-xs-12 wow bounceInRight" data-wow-duration='5s' data-wow-offset="220">
                 <img class="imn" src="images/Thali-treatment-Traditional-Indian-dietary-practice-may-lower-chronic-disease-risk.jpg">
             </div>
-            <div class="serv col-md-4 col-xs-12" id="gym">
+            <div class="serv col-md-4 col-xs-12 wow bounceInLeft" id="gym" data-wow-duration='5s' data-wow-offset="250">
                 <img class="imn" src="images/Bloom+Hotel+Brussels+2017+(1).jpg">
             </div>
-            <div class="serv col-md-4 col-xs-12">
+            <div class="serv col-md-4 col-xs-12 wow bounceInUp" data-wow-duration='5s' data-wow-offset="250">
                 <img class="imn" src="images/fitness-center.jpg">
             </div>
-            <div class="serv col-md-4 col-xs-12">
+            <div class="serv col-md-4 col-xs-12 wow bounceInRight" data-wow-duration='5s' data-wow-offset="250">
                 <img class="imn" src="images/Image-2.jpg">
             </div>
         </section>
         <!-- end services -->
         <!--start testimonial -->
-        <div id="carousel-test" class="carousel slide test" data-ride="carousel">
+        <div id="carousel-test" class="carousel slide test "  data-ride="carousel">
   <!-- Indicators -->
-  <ol class="carousel-indicators imagg">
+  <ol class="carousel-indicators imagg wow flipInY" data-wow-duration='5s' data-wow-offset="100">
     <li data-target="#carousel-test" data-slide-to="0" class="active"><img src="images/portrait-2865605_960_720.jpg"></li>
     <li data-target="#carousel-test" data-slide-to="1"><img src="images/960x0.jpg"></li>
     <li data-target="#carousel-test" data-slide-to="2"><img src="images/219_05_busbusiness_interviewHeader_1485x1254.jpg"></li>
@@ -256,7 +259,7 @@
   </ol>
 
   <!-- Wrapper for slides -->
-  <div class="carousel-inner comme">
+  <div class="carousel-inner comme wow flipInY" data-wow-duration='5s' data-wow-offset="330">
     <div class="item active">
       <div class="carousel-caption">
         <div class="comt">
@@ -308,37 +311,51 @@
 </div>
         <!-- end textimonial -->
         <!-- start contact -->
-        <div class="contact text-center">
+        <div class="contact text-center" id="contact">
             <div class="fie">
                 <div class="container">
                     <span class="glyphicon glyphicon-headphones glyphicon-block"></span>
                     <h1>tell us what you fell</h1>
                     <p class="lead">feel free to contact us in anytime</p>
-                    <div class="col-md-6">
+                    <div class="col-md-6 ">
                         <div class="form-group">
-                             <input type="text" class="form-control input-lg" placeholder="username">
+                             <input type="text" class="form-control input-lg  wow bounceInLeft  " data-wow-duration='5s'  placeholder="username" data-wow-offset="250">
                         </div>
                         <div class="form-group">
-                             <input type="text" class="form-control input-lg" placeholder="email">
+                             <input type="text" class="form-control input-lg  wow bounceInLeft" data-wow-duration='5s' placeholder="email" data-wow-offset="250">
                         </div>
                         <div class="form-group">
-                             <input type="text" class="form-control input-lg" placeholder="cellphone">
+                             <input type="text" class="form-control input-lg  wow bounceInLeft" data-wow-duration='5s' placeholder="cellphone" data-wow-offset="250">
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <textarea  class="form-control input-lg" placeholder="your massage"></textarea>
+                            <textarea  class="form-control input-lg  wow bounceInRight" data-wow-duration='5s' placeholder="your massage" data-wow-offset="250"></textarea>
                         </div>
                         <div class="form-group">
-                            <button  class="btn btn-primary btn-block" >submit</button>
+                            <button  class="btn btn-primary btn-block  wow bounceInRight" data-wow-duration='5s' data-wow-offset="250">submit</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- end contact -->
+        <!-- start client -->
+        <section class="our-client">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-xs-4"><img class="img-responsive center-block wow bounceIn" src="images/BBC_logo.png" data-wow-duration='1s' data-wow-delay='0.5s' data-wow-offset="280"></div>
+                    <div class="col-md-2 col-xs-4"><img class="img-responsive center-block wow bounceIn" src="images/Lark_logo.png" data-wow-duration='1s' data-wow-delay='1s' data-wow-offset="280"></div>
+                    <div class="col-md-2 col-xs-4"><img class="img-responsive center-block wow bounceIn" src="images/logo_Minor_NHOW.png" data-wow-duration='1s' data-wow-delay='1.5s' data-wow-offset="280"></div>
+                    <div class="col-md-2 col-xs-4"><img class="img-responsive center-block wow bounceIn" src="images/Rebel_logo.png" data-wow-duration='1s' data-wow-delay='2s' data-wow-offset="280"></div>
+                    <div class="col-md-2 col-xs-4"><img class="img-responsive center-block wow bounceIn" src="images/345-3455916_wall-street-journal-logo-png-download-wsj-svg.png" data-wow-duration='1s' data-wow-delay='2.5s' data-wow-offset="280"></div>
+                    <div class="col-md-2 col-xs-4"><img class="img-responsive center-block wow bounceIn" src="images/5848245ecef1014c0b5e49cb.png" data-wow-duration='1s' data-wow-delay='3s' data-wow-offset="280"></div>
+                </div>
+            </div>
+        </section>
+        <!-- end client -->
         <!-- start footer -->
-        <footer style="background-color: black;color:#aaa">
+        <footer>
             <div class="container">
                 <div class="col-md-4">
                 <h1>sitemap</h1>
@@ -365,11 +382,11 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16" style="color:cyan;margin-top:15px;margin-left: 10px;">
   <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
 </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-wifi" viewBox="0 0 16 16" style="color:black;margin-top:15px;margin-left: 10px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-wifi" viewBox="0 0 16 16" style="color:black;margin-top:15px;margin-left:10px;">
   <path d="M15.385 6.115a.485.485 0 0 0-.048-.736A12.443 12.443 0 0 0 8 3 12.44 12.44 0 0 0 .663 5.379a.485.485 0 0 0-.048.736.518.518 0 0 0 .668.05A11.448 11.448 0 0 1 8 4c2.507 0 4.827.802 6.717 2.164.204.148.489.13.668-.049z"/>
   <path d="M13.229 8.271c.216-.216.194-.578-.063-.745A9.456 9.456 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.577 1.336c.205.132.48.108.652-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.472 6.472 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.408.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.611-.091l.015-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .708 0l.707-.707z"/>
 </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16" style="color:orange;margin-top:15px;margin-left:0;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16" style="color:orange;margin-top:15px;margin-left:-25px;">
   <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
 </svg>
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16" style="color:red;margin-top:15px;margin-left:10px;">
@@ -401,22 +418,23 @@
                 <img class="img-thumbnial col-md-6 col-xs-3" src="images/SB-ATL-ZookHome-9-e1538165814448.jpg">
             </div>
             </div>
+            
         </footer>
+        <div class="copy text-center">copyright&copy;2021<span class="im">Ragaa ismail fayez</span>R hotel</div>
         <!-- end footer -->
-        <!-- start client -->
-        <section class="our-client">
-            <div class="container">
-                <div class="row">
-                <div class="col-md-2 col-xs-4"><img class="img-responsive center-block" src="images/BBC_logo.png"></div>
-                <div class="col-md-2 col-xs-4"><img class="img-responsive center-block" src="images/Lark_logo.png"></div>
-                <div class="col-md-2 col-xs-4"><img class="img-responsive center-block" src="images/logo_Minor_NHOW.png"></div>
-                <div class="col-md-2 col-xs-4"><img class="img-responsive center-block" src="images/Rebel_logo.png"></div>
-                <div class="col-md-2 col-xs-4"><img class="img-responsive center-block" src="images/345-3455916_wall-street-journal-logo-png-download-wsj-svg.png"></div>
-                <div class="col-md-2 col-xs-4"><img class="img-responsive center-block" src="images/5848245ecef1014c0b5e49cb.png"></div>
-            </div>
+        <!-- start loading -->
+        <section class="overlay">
+            <h2 class="text-center">wait the page will loading..................</h2>
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
             </div>
         </section>
+        <!-- end loading -->
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/file.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>new WOW().init()</script>
     </body>
 </html>
