@@ -353,14 +353,23 @@ footer
             overflow-x:visible;
         }
         .comt  .te
-{
-    width: 50px;
-    height:50px;
-    border-radius: 50%;
-    margin-top: -60px;
-    overflow: visible;
-    
-}
+        {
+            
+            width: 50px;
+            height:50px;
+            border-radius: 50%;
+            margin-top: -60px;
+            overflow: visible;
+         }
+        .test .imagg li
+        {
+            width: 40px;
+            height:40px;
+        }
+        .test .imagg li img
+        {
+            height: 40px;
+         }
 }
 /* start section of loading */
 .overlay
