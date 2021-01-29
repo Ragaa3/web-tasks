@@ -341,13 +341,14 @@ footer
         }
         .comme
         {
+            padding:10px 0;
             height:900px;
         }
         .comt
         {
-            margin-left:0;
+            margin-left:-40px;
             height: 600px;
-            width: 95%;
+            width:180px;
             margin-top: 20px;
             font-size: 10px;
             overflow-x:visible;
