@@ -338,6 +338,25 @@ footer
             max-width: 100%;
             overflow-x: hidden;
         }
+        .prices .pri
+        {
+            width:90%;
+        
+        }
+        .m
+        {
+            margin-left:5%;
+        }
+        .col-md-offset-1
+        {
+            margin-left:5%;
+        }
+        .prices .pri button
+        {
+            width: 90%;
+            font-size:15px;
+        }
+        
         .comme
         {
             padding:10px 0;
