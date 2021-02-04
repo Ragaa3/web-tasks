@@ -203,7 +203,7 @@ body
 {
     border-bottom: 3px solid #aaa;
 }
-.sevr
+.serv
 {
     position: relative;  
 }
@@ -219,8 +219,11 @@ body
     margin-top: 10px;
     margin-bottom: 10px;
     
+} 
+.imn:hover
+{
+    opacity: 0.6;
 }
-
 .em
 {
     width: 100%;
@@ -241,14 +244,19 @@ body
 /* start style of testimonial */
 .test
 {
-    padding: 50px;
+    background:url(../images/istock-544560094.jpg) fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
     z-index:1;
+    position: relative;
 }
 
 .comme
 {
-    height: 600px;
-    
+
+    background-color: rgb(72 30 46 / 50%);
+    height:600px;
+    margin:0;
 }
 .comt
 {
@@ -304,6 +312,11 @@ body
 .contact .con i:hover
 {
     background-color: pink;
+    cursor: pointer;
+}
+.my
+{
+    width: 49%;
 }
 .fie .glyphicon
 {
@@ -373,6 +386,11 @@ footer
         {
             margin-left:12.5%;
         }
+        .my
+        {
+            width:100%;
+            display: block;
+        }
 }
 @media(max-width:520px)
     {
@@ -389,20 +407,15 @@ footer
         {
             line-height: 15px;
         }
-        .comme
-        {
-            height:700px;
-        }
-        .comt
-        {
-            margin-left:5px;
-            width:200px;
-            height: 500px;
-        }
+        
         .m
         {
             margin-left:12.5%;
         }
+        .services ul li
+{
+    display: block;
+}
 }
 @media(max-width:398px)
     {
@@ -426,20 +439,6 @@ footer
             font-size:15px;
         }
         
-        .comme
-        {
-            padding:10px 0;
-            height:900px;
-        }
-        .comt
-        {
-            margin-left:-40px;
-            height: 600px;
-            width:180px;
-            margin-top: 20px;
-            font-size: 10px;
-            overflow-x:visible;
-        }
         .comt  .te
         {
             
@@ -449,15 +448,7 @@ footer
             margin-top: -60px;
             overflow: visible;
          }
-        .test .imagg li
-        {
-            width: 40px;
-            height:40px;
-        }
-        .test .imagg li img
-        {
-            height: 40px;
-         }
+
 }
 /* end style of media in mobil */
 
