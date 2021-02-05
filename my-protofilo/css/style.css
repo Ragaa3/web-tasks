@@ -144,7 +144,7 @@ body
     bottom: 15%;
 }
 
-/* start style features */
+/* start style skils */
 .skils
 {
     background-color: gainsboro;
@@ -157,14 +157,14 @@ body
     margin-bottom: 10px;
     margin-top: 10px;
 }
-/* start style features */
+/* start style skils */
 
-/* start style prices */
-.prices
+/* start style services */
+.services
 {
     padding: 50px;
 }
-.prices .pri
+.services .pri
 {
     background-color:white;
     border-radius: 20px;
@@ -174,7 +174,7 @@ body
     box-shadow: 1px 5px 5px black;
     padding: 20px;
 }
-.prices i
+.services i
 {
     padding:20px;
     border: 2px solid dodgerblue;
@@ -185,21 +185,21 @@ body
     margin-left:  3%;
     margin-top: 10px;
 }
-/* end style prices */
+/* end style services */
 
-/* start style services */
-.services
+/* start style protofilo */
+.protofilo
 {
     padding: 50px;
     background-color:#5a5755;
     color:#aaa;
 }
-.services ul li
+.protofilo ul li
 {
     display: inline-block;
     margin: 20px;
 }
-.services ul .active 
+.protofilo ul .active 
 {
     border-bottom: 3px solid #aaa;
 }
@@ -239,7 +239,7 @@ body
 {
     display: block;
 }
-/* end style services */
+/* end style protofilo */
 
 /* start style of testimonial */
 .test
@@ -339,26 +339,6 @@ body
 }
 /* end style of contact */
 
-/* start style of cient */ 
-.our-client
-{
-    border:1px solid black;
-    padding: 10px;
-}
-.our-client img
-{
-    width:70%;
-    margin: 10px 15%;
-    height: 50px;
-    opacity: 0.5;
-    filter:alpha(opcity=50);
-    color:black
-}
-.our-client img:hover{
-    opacity: 1;
-}
-/* end style of cient */ 
-
 /* start style of footer */
 footer
 {
@@ -379,8 +359,13 @@ footer
 @media(max-width:999px)
     {
         .col-md-offset-1
+        {
+          margin-left: 12.5%;
+        }
+        .ofset-1
 {
-    margin-left: 12.5%;
+    margin-left:0;
+    margin-top: 10px;
 }
         .m
         {
@@ -389,7 +374,7 @@ footer
         .my
         {
             width:100%;
-            display: block;
+            font-size: 10px;
         }
 }
 @media(max-width:520px)
@@ -412,7 +397,7 @@ footer
         {
             margin-left:12.5%;
         }
-        .services ul li
+        .protofilo ul li
 {
     display: block;
 }
@@ -424,16 +409,20 @@ footer
             max-width: 100%;
             overflow-x: hidden;
         }
-        .prices .pri
+        .services .pri
         {
             width:90%;
         
+        }
+        .col-md-offset-1
+        {
+          margin-left:5%;
         }
         .m
         {
             margin-left:5%;
         }
-        .prices .pri button
+        .services .pri button
         {
             width: 90%;
             font-size:15px;
