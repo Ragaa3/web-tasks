@@ -16,10 +16,14 @@ header div
     border: 1px solid black;
     box-shadow: 1px 1px 3px black;
     color: dodgerblue;
+    
+}
+header .m
+{
     text-align: center;
     direction: rtl;
 }
-header div p
+header .m p
 {
     margin:3px 40%;
     text-align: center;
