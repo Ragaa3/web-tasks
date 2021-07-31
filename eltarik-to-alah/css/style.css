@@ -1,0 +1,509 @@
+/* 482 lines */
+body
+{
+    background-color:aliceblue;
+    margin: 0;
+    overflow: hidden;
+}
+/* start overead in bootstrap */
+
+/* start navbar */
+.navbar
+{
+    margin-bottom: 0;
+    border-radius: 0;
+    top:0;
+    position: sticky;
+    z-index:3;
+}
+.navbar-right .dropdown-menu
+{
+    left: 0;
+    right: auto
+}
+.navbar-inverse .navbar-nav > li > a:hover,.navbar-inverse .navbar-nav > li > a:focus
+{
+    background-color:#3e3a3a;
+}
+/* end navbar */
+
+/* start carsousel */
+ .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img
+{
+    width: 100%;
+    height:500px;
+    top:0;
+    margin: 0;
+}
+.carousel-indicators  .active
+{
+    width: 10px;
+    height: 10px;
+    margin: 20px 0;
+}
+.carousel-indicators li
+{
+    margin: 20px 0;
+}
+.item
+{
+    top:0;
+}
+.carousel-caption
+{
+    top:25%;
+    bottom: 20%;
+    padding: 30px;
+}
+.carousel-caption .btn-danger .glyphicon
+{
+    margin: 4px;
+}
+.left .glyphicon,.right .glyphicon
+{
+    top:50%;
+    color: #3209b1;
+}
+/* end carsousel */
+
+/* end overead in bootstrap */
+
+/* start style option */
+.option-box
+{
+    position: fixed;
+    top:100px;
+    left:0;
+    z-index: 9999;
+}
+.option-box .color
+{
+    float: left;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    width: 200px;
+    display: none;
+}
+.option-box .glyphicon
+{
+    font-size: 40px;
+    margin-top: 12%;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid #333;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 1px 1px 3px white;
+}
+.option-box .color ul li
+{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+/* end style option */
+
+.about h1
+{
+    color:gainsboro;
+    text-shadow: 1px 1px 10px black;
+}
+.about img
+{
+    max-width: 100%;
+    height:450px;
+}
+.about .bol
+{
+    font-weight: bold;
+}
+.about p .p
+{
+    color:hotpink;
+}
+.about p .v
+{
+    color:blueviolet;
+}
+.about p .b
+{
+    color:darkcyan;
+}
+.about p .y
+{
+    color:orange;
+}
+.ab
+{
+    background-color: rgb(72 67 178 / 50%);
+    padding: 30px;
+    height: 70%;
+    top:15%;
+    bottom: 15%;
+}
+
+/* start style skils */
+.skils
+{
+    background-color: gainsboro;
+    padding: 20px;
+    font-family: 'Bodoni Moda';
+    color: black;
+}
+.features .feat
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/* start style skils */
+
+/* start style services */
+.services
+{
+    padding: 50px;
+}
+.services .pri
+{
+    background-color:white;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 5px 5px black;
+    padding: 20px;
+}
+.services i
+{
+    padding:20px;
+    border: 2px solid dodgerblue;
+    border-radius: 50%;
+}
+.ofset-1
+{
+    margin-left:  3%;
+    margin-top: 10px;
+}
+/* end style services */
+
+/* start style protofilo */
+.protofilo
+{
+    padding: 50px;
+    background-color:#5a5755;
+    color:#aaa;
+}
+.protofilo ul li
+{
+    display: inline-block;
+    margin: 20px;
+}
+.protofilo ul .active 
+{
+    border-bottom: 3px solid #aaa;
+}
+.serv
+{
+    position: relative;  
+}
+.col-md-offset-1
+{
+    margin-left: 12.5%;
+}
+
+.imn
+{
+    width: 100%;
+    height:300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+} 
+.imn:hover
+{
+    opacity: 0.6;
+}
+.em
+{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    background-color: rgb(72 67 178 / 50%);
+    z-index: 2;
+    display: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.imn:hover~.em
+{
+    display: block;
+}
+/* end style protofilo */
+
+/* start style of testimonial */
+.test
+{
+    background:url(../images/istock-544560094.jpg) fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index:1;
+    position: relative;
+}
+
+.comme
+{
+
+    background-color: rgb(72 30 46 / 50%);
+    height:600px;
+    margin:0;
+}
+.comt
+{
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 20px;
+    margin-left:10px;
+    height: 400px;
+    color: #332e2e;
+    margin-bottom: 80px;
+    font-family: 'Courgette';
+    
+} 
+.comt i
+{
+    background-color: dodgerblue;
+    padding: 20px;
+    border-radius: 50%;
+}
+  .te
+{
+    width: 90px;
+    height:90px;
+    border-radius: 50%;
+    margin-top: -60px;
+    
+}
+/* end style of testimonial */
+
+/* start style of contact */
+.contact
+{
+    padding: 50px;
+    background-color: gainsboro;
+}
+.contact .con
+{
+    background-color: white;
+    padding: 30px;
+    float: left;
+    box-shadow:1px 1px 8px black;
+
+}
+.contact .con i
+{
+    border:2px solid pink;
+    padding: 20px;
+    border-radius: 50%;
+    color: hotpink;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.contact .con i:hover
+{
+    background-color: pink;
+    cursor: pointer;
+}
+.my
+{
+    width: 49%;
+}
+.fie .glyphicon
+{
+    font-size: 50px;
+}
+.fie textarea
+{
+    height: 300px;
+}
+.fie button
+{
+    height: 60px;
+    margin-top: 10px;
+}
+.img-thumbnial
+{
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* end style of contact */
+
+/* start style of footer */
+footer
+{
+    background-color: black;
+    color:#aaa;
+    padding: 20px;
+}
+ .copy
+{
+    background-color: #3e3a3a;
+    padding: 20px;
+    color:#aaa;
+    margin: 0;
+}
+/* end style of footer */
+
+/* start style of media in mobil */
+@media(max-width:999px)
+    {
+        .col-md-offset-1
+        {
+          margin-left: 12.5%;
+        }
+        .ofset-1
+{
+    margin-left:0;
+    margin-top: 10px;
+}
+        .m
+        {
+            margin-left:12.5%;
+        }
+        .my
+        {
+            width:100%;
+            font-size: 10px;
+        }
+}
+@media(max-width:520px)
+    {
+        body
+        {
+            margin-right: 0;
+        }
+        .navbar-nav > li > a
+        {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .navbar-nav .open .dropdown-menu > li > a
+        {
+            line-height: 15px;
+        }
+        
+        .m
+        {
+            margin-left:12.5%;
+        }
+        .protofilo ul li
+{
+    display: block;
+}
+}
+@media(max-width:398px)
+    {
+        body
+        {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+        .services .pri
+        {
+            width:90%;
+        
+        }
+        .col-md-offset-1
+        {
+          margin-left:5%;
+        }
+        .m
+        {
+            margin-left:5%;
+        }
+        .services .pri button
+        {
+            width: 90%;
+            font-size:15px;
+        }
+        
+        .comt  .te
+        {
+            
+            width: 50px;
+            height:50px;
+            border-radius: 50%;
+            margin-top: -60px;
+            overflow: visible;
+         }
+
+}
+/* end style of media in mobil */
+
+/* start section of loading */
+.overlay
+{
+    background-color:brown;
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999
+}
+.spinner {
+  width: 40px;
+  height: 40px;
+
+  position: relative;
+  margin: 100px auto;
+}
+
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+/* end section of loading */
+
+
+/* start scroll*/
+#top-scroll
+{
+    font-size: 40px;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    z-index:99999;
+    display: none;
+    cursor: pointer;
+}
+/* end scroll*/
