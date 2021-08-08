@@ -1,0 +1,18 @@
+/******* defualt color ********/
+.navbar-inverse .navbar-nav > .active > a,.carousel-indicators  .active,.option-box .glyphicon,.double-bounce1, .double-bounce2
+{
+    background-color: dodgerblue;
+}
+.carousel-indicators li,.test .imagg li
+{
+    border: 1px solid dodgerblue;
+}
+.option-box .color
+{
+    border: 3px solid dodgerblue;
+}
+.im,#top-scroll .glyphicon,.comt h1,.comt span,.text h1
+
+{
+    color: dodgerblue;
+}
