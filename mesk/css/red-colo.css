@@ -1,0 +1,17 @@
+/******* defualt color ********/
+.navbar-inverse .navbar-nav > .active > a,.carousel-indicators  .active,.option-box .glyphicon,.double-bounce1, .double-bounce2
+{
+    background-color:red;
+}
+.carousel-indicators li,.test .imagg li
+{
+    border: 1px solid red;
+}
+.option-box .color
+{
+    border: 3px solid red;
+}
+.im,#top-scroll,.comt h1,.comt span,.about-us h1,.ceo-about .text h1,.bread  ol li a,.about-feat h1,.about-feat i
+{
+    color:red;
+}

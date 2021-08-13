@@ -45,45 +45,32 @@
                 <!-- end unorder list -->
                 <!-- start section to add two number -->
                 <section class="add"> 
-                   <div id="first"><?php echo "type the first number" ?></div>
-                   <input type="text" placeholder="type number" value="" id="num1">       <!-- first number -->
-                   <div><?php echo "type the second number" ?></div>
-                   <input type="text" placeholder="type number" value="" id="num2">       <!-- second number -->
-                   <div id="summ"><?php echo "the plus of them is :" ?></div>
-                   <button id="cacul" onclick="add()">add</button>
+                    <?php
+                     $n1=3;
+                    $n2=4;
+                    $a1 = (int)$n1;
+                    $a2 = (int)$n2;
+                    $summ=$a1+$a2;
+                   echo "<div id='first'>type the first number</div>".$a1;
+                   echo "<div>type the second number</div>".$a2;
+                    if(is_numeric($a1) || is_numeric($a2))
+                       {
+                           echo "<div> the plus of them is :</div>"."not a number";
+                       }
+                    elseif($a1 == "" || $a2 == " ")
+                    {
+                        echo "<div> the plus of them is :</div>"."please a number";
+                    }
+                       else
+                       {
+                           echo "<div> the plus of them is :</div>".$summ;
+                       }
+                ?>
                 </section>
                 <!-- end section to add two number -->
             </section>
             <hr class="hr">
-            <!-- start section to prompt -->
-            <section class="promp">
-                <button id="pro" onclick="po()">prompt</button>
-                <p id="text"></p>
-            </section>
-            <!-- end section to prompt -->
-            <hr class="hr">
-            <!-- start section in which time , input color change and length of input -->
-            <section class="chang">
-                <div id="time" onclick="ti()">tell me time on click</div>
-                <hr class="hr">
-                <input type="text" id="in" oninput="le()" style="display: inline">
-                <p id="leng" class="" style="display: inline"></p>
-                <hr class="hr">
-                <input type="color" id="colo">
-                <div id="co" onmouseover="chan()" style="display: inline">hover to change background color</div>
-            </section>
-            <!-- end section in which time , input color change and length of input -->
-            <hr class="hr">
-            <!-- start section to input number and input names -->
-            <section class="num ">
-                <input type="text" id="nu">
-                <p>what is your name</p>
-                <div><?php 
-$name = document.getElementById("num").value;
-echo "hello".$name;
-?></div>
-            </section>
-            <!-- end section to input number and input names -->
+           
         </section>
         <!-- end section of content -->
         <!-- start footer -->
